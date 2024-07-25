@@ -1,0 +1,367 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64609F99-D01F-4B30-9043-B391421AB535}|Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n.csproj|solutionrelative:qu\u1EA3n l\u00FD b\u1EC7nh vi\u1EC7n\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Index.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Index.cshtml",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:34:57.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Create.cshtml",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Create.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Create.cshtml",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Patients\\Create.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:31:29.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Room.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Room.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:06:36.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Patient.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Patient.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Patient.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:33:31.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Program.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Program.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Program.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:58:06.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T06:28:59.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T07:13:21.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\PatientsController.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:11:17.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\MedicalRecord.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\MedicalRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:04:02.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Doctor.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Doctor.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:34:08.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Equipment.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Equipment.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Equipment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:06:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Department.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Department.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:34:55.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Staff.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Staff.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:05:50.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Billing.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Billing.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Billing.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Billing.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Billing.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:05:30.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Prescription.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Prescription.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Prescription.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA/wA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:05:06.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Medication.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Medication.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Medication.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Medication.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Medication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:04:27.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Appointment.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Appointment.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:03:29.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:01:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:01:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Qu\u1EA3n L\u00FD b\u1EC7nh vi\u1EC7n\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:43:52.317Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
