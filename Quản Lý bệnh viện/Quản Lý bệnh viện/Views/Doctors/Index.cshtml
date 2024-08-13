@@ -1,0 +1,189 @@
+﻿@model IEnumerable<Quản_Lý_bệnh_viện.Data.Doctor>
+
+@{
+    ViewData["Title"] = "Doctors";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2>@ViewData["Title"]</h2>
+        </div>
+    </div>
+
+    <!-- Paragraph -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="alert alert-info p-3" style="text-align: justify;">
+                <p>
+                    The hospital is developing towards a multimodal treatment approach, focusing resources and increasing coordination by establishing specialized centers. These centers collaborate with each other to conduct joint consultations for a patient, bringing about treatment methods that combine multiple specialties. The multimodal treatment model offers many benefits, especially for patients with multiple complex conditions, helping patients receive comprehensive diagnosis and effective treatment.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Form -->
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <form method="get" class="form-inline justify-content-center align-items-center">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="text" name="searchString" class="form-control" placeholder="Find a specialty" />
+                </div>
+                <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search"></i> Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Doctor List -->
+    <div class="row">
+        <!-- Doctor Card -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Cấp cứu - Emergency" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Cấp cứu - Emergency.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Cấp cứu - Emergency</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Repeat Doctor Card for each Doctor -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Gây mê hồi sức - Anesthesiology and Resuscitation" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Gây mê hồi sức - Anesthesiology and Resuscitation.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Gây mê hồi sức - Anesthesiology and Resuscitation</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Hô hấp - Respiratory" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Hô hấp - Respiratory.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Hô hấp - Respiratory</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Nội soi - Endoscopy" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Nội soi - Endoscopy.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Nội soi - Endoscopy</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Add more Doctor Cards as needed -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Tai - Mũi - Họng - Otolaryngology" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tai - Mũi - Họng - Otolaryngology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tai - Mũi - Họng - Otolaryngology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Hồi sức tích cực - Intensive Care" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Hồi sức tích cực - Intensive Care.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Hồi sức tích cực - Intensive Care</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Tim mạch - Cardiology" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tim mạch - Cardiology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tim mạch - Cardiology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="/Doctor/Tiêu hoá - Gastroenterology" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tiêu hoá - Gastroenterology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tiêu hoá - Gastroenterology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- FontAwesome for search icon -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!--Css Giao diện toàn bộ của trang-->
+<style>
+    .doctor-card {
+        transition: transform 0.2s;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+        .doctor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .doctor-card a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .bg-primary {
+        background-color: #007bff !important;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+
+    .rounded-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    }
+
+    .form-inline .form-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-inline .form-control {
+        width: auto;
+        flex: 1;
+    }
+</style>
+
+
+
