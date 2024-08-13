@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\benhvien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|d:\\benhvien\\webbv\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|D:\\benhvien\\webbv\\Data\\HospitalDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\Data\\HospitalDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "webbv\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "webbv\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:37:21.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Doctor\\Index.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Doctor\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T08:38:12.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Program.cs",
+              "RelativeDocumentMoniker": "webbv\\Program.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Program.cs",
+              "RelativeToolTip": "webbv\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:39:00.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\appsettings.json",
+              "RelativeDocumentMoniker": "webbv\\appsettings.json",
+              "ToolTip": "D:\\benhvien\\webbv\\appsettings.json",
+              "RelativeToolTip": "webbv\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T16:27:45.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "webbv\\Data\\HospitalDbContext.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "webbv\\Data\\HospitalDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:37:34.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "webbv\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "webbv\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:37:43.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T13:01:15.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T15:37:26.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "webbv\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\benhvien\\webbv\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "webbv\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-01T03:48:45.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:38:09.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:34:14.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "footer.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\footer.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T03:47:59.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T03:46:28.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "webbv\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T15:37:31.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "webbv\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "webbv\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:01:37.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\benhvien\\webbv\\Models\\login.cs",
+              "RelativeDocumentMoniker": "webbv\\Models\\login.cs",
+              "ToolTip": "D:\\benhvien\\webbv\\Models\\login.cs",
+              "RelativeToolTip": "webbv\\Models\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:59:33.275Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
