@@ -1,0 +1,41 @@
+﻿@model webbv.Data.SelectSpecialty
+
+@{
+    ViewData["Title"] = "SelectSpecialty";
+}
+
+<h1>SelectSpecialty</h1>
+
+<h4>SelectSpecialty</h4>
+<hr />
+<div class="container">
+    <form asp-action="SelectSpecialty" method="post">
+        <input type="hidden" asp-for="PatientId" value="@ViewBag.PatientId" />
+        <div class="form-group">
+            <label for="specialty">Specialty</label>
+            <select id="specialty" name="specialty" class="form-control">
+                <option value="Cardiology">Hô Hấp</option>
+                <option value="TieuHoa">TIêu Hóa</option>
+                <option value="NoiTiet">Nội tiết</option>
+                <option value="Dalieu">Da liễu</option>
+                <option value="HuyetHoc">Huyết học</option>
+                <option value="ViemGan">Viêm Gan</option>
+                <option value="NoiThan">Nội Thận</option>
+                <option value="UngBuou">Ung Bướu</option>
+
+                <!-- Add more specialties as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

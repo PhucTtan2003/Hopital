@@ -11,7 +11,7 @@ public partial class Doctor
 
     public string LastName { get; set; } = null!;
 
-    public string Specialty { get; set; } = null!;
+    public string? Specialty { get; set; }
 
     public string Phone { get; set; } = null!;
 
