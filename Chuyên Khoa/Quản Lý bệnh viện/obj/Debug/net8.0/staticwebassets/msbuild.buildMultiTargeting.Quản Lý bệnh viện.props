@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Quản Lý bệnh viện.props" />
-</Project>

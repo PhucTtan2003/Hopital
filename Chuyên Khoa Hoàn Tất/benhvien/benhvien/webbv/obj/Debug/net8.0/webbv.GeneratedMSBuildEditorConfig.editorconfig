@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = webbv
+build_property.RootNamespace = webbv
+build_property.ProjectDir = D:\DEMO\benhvien\benhvien\webbv\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DEMO\benhvien\benhvien\webbv
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/CapCuuEmergency.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENhcEN1dUVtZXJnZW5jeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/GayMeHoiSuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEdheU1lSG9pU3VjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/HoHapRespiratory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEhvSGFwUmVzcGlyYXRvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/HoiSucTichCucIntensiveCare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEhvaVN1Y1RpY2hDdWNJbnRlbnNpdmVDYXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/NoiSoiEndoscopy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXE5vaVNvaUVuZG9zY29weS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/TaiMuiHongOtolaryngology.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFRhaU11aUhvbmdPdG9sYXJ5bmdvbG9neS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/TieuHoaGastroenterology.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFRpZXVIb2FHYXN0cm9lbnRlcm9sb2d5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Doctor/TimMachCardiology.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFRpbU1hY2hDYXJkaW9sb2d5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Shared/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEMO/benhvien/benhvien/webbv/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pllnuusgru

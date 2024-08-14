@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\webbv_fix\\webbv\\webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\login\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\login\\Index.cshtml",
+              "RelativeToolTip": "webbv\\Views\\login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T15:44:37.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Models\\login.cs",
+              "RelativeDocumentMoniker": "webbv\\Models\\login.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Models\\login.cs",
+              "RelativeToolTip": "webbv\\Models\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:42:53.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Controllers\\login.cs",
+              "RelativeDocumentMoniker": "webbv\\Controllers\\login.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Controllers\\login.cs",
+              "RelativeToolTip": "webbv\\Controllers\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:41:46.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Program.cs",
+              "RelativeDocumentMoniker": "webbv\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Program.cs",
+              "RelativeToolTip": "webbv\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:39:00.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T13:01:15.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "webbv\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "webbv\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:37:43.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "webbv\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T15:37:31.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T03:46:28.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T15:37:26.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Shared\\footer.cshtml",
+              "RelativeDocumentMoniker": "webbv\\Views\\Shared\\footer.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\Views\\Shared\\footer.cshtml",
+              "RelativeToolTip": "webbv\\Views\\Shared\\footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T03:47:59.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "webbv\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\webbv_fix\\webbv\\webbv\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "webbv\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADwAAAAANDMzMzMrwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-01T03:48:45.863Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
