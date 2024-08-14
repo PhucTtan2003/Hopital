@@ -7847,19 +7847,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TAM\\.nuget\\packages\\": {}
+    "C:\\Users\\Thinh Nguyen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\benhvien\\webbv\\webbv.csproj",
+      "projectUniqueName": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien\\benhvien\\webbv\\webbv.csproj",
       "projectName": "webbv",
-      "projectPath": "D:\\benhvien\\webbv\\webbv.csproj",
-      "packagesPath": "C:\\Users\\TAM\\.nuget\\packages\\",
-      "outputPath": "D:\\benhvien\\webbv\\obj\\",
+      "projectPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien\\benhvien\\webbv\\webbv.csproj",
+      "packagesPath": "C:\\Users\\Thinh Nguyen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien\\benhvien\\webbv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thinh Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7867,6 +7867,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7928,7 +7929,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

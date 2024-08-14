@@ -1,0 +1,140 @@
+﻿@model Login.Data.Account
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 70%;
+            box-sizing: border-box;
+            border-radius: 30px;
+            align-items:center;
+          
+        }
+
+            .login-container h1 {
+                margin-bottom: 20px;
+                font-size: 24px;
+                color: #333;
+            }
+
+            .login-container h4 {
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: #666;
+            }
+
+            .login-container form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .login-container .form-group {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+                .login-container .form-group label {
+                    display: block;
+                    margin-bottom: 5px;
+                    color: #333;
+                    font-weight: bold;
+                }
+
+                .login-container .form-group input {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+
+                .login-container .form-group .text-danger {
+                    margin-top: 5px;
+                    font-size: 0.875em;
+                    color: red;
+                }
+
+            .login-container .btn-primary {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                background-color: #007bff;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+                .login-container .btn-primary:hover {
+                    background-color: #0056b3;
+                }
+
+            .login-container a {
+                display: block;
+                margin-top: 10px;
+                color: #007bff;
+                text-decoration: none;
+            }
+
+                .login-container a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>@ViewData["Title"]</h1>
+        <h4>Account</h4>
+        <hr />
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Username" class="control-label"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PasswordAccount" class="control-label"></label>
+                <input asp-for="PasswordAccount" class="form-control" />
+                <span asp-validation-for="PasswordAccount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Role" class="control-label"></label>
+                <input asp-for="Role" class="form-control" />
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+        <a asp-action="Index">Back to List</a>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

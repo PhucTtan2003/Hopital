@@ -1,0 +1,25 @@
+﻿.specialist-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .specialist-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
