@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webbv.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webbv.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\BV.png",
+      "PackagePath": "staticwebassets\\images\\BV.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Cấp cứu - Emergency.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Cấp cứu - Emergency.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Cấp cứu - Emergency_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Cấp cứu - Emergency_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Cấp cứu - Emergency_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Cấp cứu - Emergency_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Doctor_1.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Doctor_1.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Doctor_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Doctor_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Doctor_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Doctor_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Doctor_4.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Doctor_4.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Doctor_5.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Doctor_5.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Gây mê hồi sức - Anesthesiology and Resuscitation_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hô hấp - Respiratory.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hô hấp - Respiratory.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hô hấp - Respiratory_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hô hấp - Respiratory_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hô hấp - Respiratory_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hô hấp - Respiratory_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hồi sức tích cực - Intensive Care.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hồi sức tích cực - Intensive Care.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hồi sức tích cực - Intensive Care_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hồi sức tích cực - Intensive Care_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Hồi sức tích cực - Intensive Care_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Hồi sức tích cực - Intensive Care_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Nội soi - Endoscopy.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Nội soi - Endoscopy.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Nội soi - Endoscopy_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Nội soi - Endoscopy_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Nội soi - Endoscopy_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Nội soi - Endoscopy_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tai - Mũi - Họng - Otolaryngology_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tim mạch - Cardiology.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tim mạch - Cardiology.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tim mạch - Cardiology_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tim mạch - Cardiology_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tim mạch - Cardiology_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tim mạch - Cardiology_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tiêu hoá - Gastroenterology.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tiêu hoá - Gastroenterology.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tiêu hoá - Gastroenterology_2.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tiêu hoá - Gastroenterology_2.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\Tiêu hoá - Gastroenterology_3.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\Tiêu hoá - Gastroenterology_3.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\facebook-icon.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\facebook-icon.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\qr-code.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\qr-code.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\youtube-icon.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\youtube-icon.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\Doctor\\zalo-icon.png",
+      "PackagePath": "staticwebassets\\images\\Doctor\\zalo-icon.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\R.png",
+      "PackagePath": "staticwebassets\\images\\R.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\bv1.jpg",
+      "PackagePath": "staticwebassets\\images\\bv1.jpg"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\bv2.jpg",
+      "PackagePath": "staticwebassets\\images\\bv2.jpg"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\bv3.jpg",
+      "PackagePath": "staticwebassets\\images\\bv3.jpg"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\bv4.jpg",
+      "PackagePath": "staticwebassets\\images\\bv4.jpg"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\niie.png",
+      "PackagePath": "staticwebassets\\images\\niie.png"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\images\\ssh.jpg",
+      "PackagePath": "staticwebassets\\images\\ssh.jpg"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DEMO\\benhvien\\benhvien\\webbv\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webbv.props",
+      "PackagePath": "build\\webbv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webbv.props",
+      "PackagePath": "buildMultiTargeting\\webbv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webbv.props",
+      "PackagePath": "buildTransitive\\webbv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webbv.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

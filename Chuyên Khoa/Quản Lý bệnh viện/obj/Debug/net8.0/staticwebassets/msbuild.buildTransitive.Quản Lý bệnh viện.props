@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Quản Lý bệnh viện.props" />
-</Project>
