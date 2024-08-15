@@ -1,0 +1,14 @@
+﻿@model TrangDoctor.Data.Doctor
+
+<h1>Thông tin chi tiết bác sĩ</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FullName</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Specialty</h6>
+        <p class="card-text">@Model.DescriptionDoctor</p>
+        <p><strong>Kinh nghiệm:</strong> @Model.Experience</p>
+        <p><strong>Học vấn:</strong> @Model.Education</p>
+        <p><strong>Chức vụ:</strong> @Model.Position</p>
+    </div>
+</div>

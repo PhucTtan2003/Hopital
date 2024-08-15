@@ -1,0 +1,53 @@
+﻿@model TrangDoctor.Models.DoctorSearchViewModel
+
+<div class="search-container">
+    <h1>TÌM BÁC SĨ</h1>
+    <p>Vui lòng chọn chuyên khoa cần khám hoặc nhập tên bác sĩ để tìm kiếm nhanh hơn.</p>
+
+    <form id="searchForm" asp-action="Search" method="post">
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <select asp-for="SelectedSpecialty" asp-items="Model.Specialties" class="form-control">
+                    <option value="">Tìm theo chuyên khoa</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-3">
+                <select asp-for="SelectedDay" asp-items="Model.DaysOfWeek" class="form-control">
+                    <option value="">Tìm theo ngày khám</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-3">
+                <select asp-for="SelectedPosition" asp-items="Model.Positions" class="form-control">
+                    <option value="">Tìm theo học hàm - học vị</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-3">
+                <input type="text" asp-for="DoctorName" class="form-control" placeholder="Tìm theo tên bác sĩ">
+            </div>
+        </div>
+    </form>
+
+    <div id="searchResults">
+        @await Html.PartialAsync("_SearchResults", Model)
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#searchForm select, #searchForm input').on('change', function () {
+                $.ajax({
+                    url: '@Url.Action("Search", "Doctor")',
+                    type: 'POST',
+                    data: $('#searchForm').serialize(),
+                    success: function (result) {
+                        $('#searchResults').html(result);
+                    }
+                });
+            });
+        });
+    </script>
+}

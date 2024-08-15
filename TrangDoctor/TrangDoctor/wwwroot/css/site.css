@@ -1,0 +1,140 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+    .form-group:last-child {
+        margin-right: 0;
+    }
+
+#searchForm select, #searchForm input {
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #d1d1d1;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: #fff; 
+    color: #0b3c86; 
+}
+
+    #searchForm input::placeholder {
+        color: #999; 
+    }
+
+#searchForm select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,%3csvg xmlns%3d%27http://www.w3.org/2000/svg%27 width%3d%2710%27 height%3d%275%27 viewBox%3d%270 0 10 5%27%3e%3cpath fill%3d%27%230b3c86%27 d%3d%27M0 0l5 5 5-5z%27/%3e%3c/svg%3e') no-repeat right 10px center;
+    background-size: 10px;
+    background-color: #fff; 
+    color: #0b3c86; 
+}
+
+    #searchForm select option {
+        color: #333;
+    }
+
+#searchResults {
+    margin-top: 30px;
+}
+
+.search-container {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0b3c86;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+    .search-container h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .search-container p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+.doctor-card {
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .doctor-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .doctor-card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .doctor-card h3 {
+        font-size: 22px;
+        color: #0b3c86;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .doctor-card p {
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    .doctor-card a {
+        color: #fff;
+        background-color: #0b3c86;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+        .doctor-card a:hover {
+            background-color: #0a3570;
+        }

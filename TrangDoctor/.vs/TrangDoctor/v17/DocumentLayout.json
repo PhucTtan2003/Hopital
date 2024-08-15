@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\views\\doctor\\_searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\views\\doctor\\_searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\views\\doctor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\views\\doctor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\data\\doctorsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\data\\doctorsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\models\\doctorsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\models\\doctorsearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|d:\\hk3- 2023-2024\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\cu\u1ED1i k\u00EC\\trangdoctor\\trangdoctor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC59E6DC-2E15-4A53-AEC0-EDE6803EA8E3}|TrangDoctor\\TrangDoctor.csproj|solutionrelative:trangdoctor\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorSearch.cs",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Data\\DoctorSearch.cs",
+              "RelativeDocumentMoniker": "TrangDoctor\\Data\\DoctorSearch.cs",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Data\\DoctorSearch.cs",
+              "RelativeToolTip": "TrangDoctor\\Data\\DoctorSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:41:23.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "TrangDoctor\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "TrangDoctor\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAswEsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:35:02.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TrangDoctor\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TrangDoctor\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAC0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T03:29:05.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_SearchResults.cshtml",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\_SearchResults.cshtml",
+              "RelativeDocumentMoniker": "TrangDoctor\\Views\\Doctor\\_SearchResults.cshtml",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\_SearchResults.cshtml",
+              "RelativeToolTip": "TrangDoctor\\Views\\Doctor\\_SearchResults.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T19:16:13.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoctorSearchController.cs",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Models\\DoctorSearchController.cs",
+              "RelativeDocumentMoniker": "TrangDoctor\\Models\\DoctorSearchController.cs",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Models\\DoctorSearchController.cs",
+              "RelativeToolTip": "TrangDoctor\\Models\\DoctorSearchController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T18:19:04.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\Details.cshtml",
+              "RelativeDocumentMoniker": "TrangDoctor\\Views\\Doctor\\Details.cshtml",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\Details.cshtml",
+              "RelativeToolTip": "TrangDoctor\\Views\\Doctor\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T17:48:57.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\Search.cshtml",
+              "RelativeDocumentMoniker": "TrangDoctor\\Views\\Doctor\\Search.cshtml",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Views\\Doctor\\Search.cshtml",
+              "RelativeToolTip": "TrangDoctor\\Views\\Doctor\\Search.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T17:47:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Program.cs",
+              "RelativeDocumentMoniker": "TrangDoctor\\Program.cs",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Program.cs",
+              "RelativeToolTip": "TrangDoctor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T17:19:51.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "TrangDoctor\\Data\\HospitalDbContext.cs",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "TrangDoctor\\Data\\HospitalDbContext.cs",
+              "ViewState": "AQIAACABAAAAAAAAAAAiwCcBAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T17:17:51.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\appsettings.json",
+              "RelativeDocumentMoniker": "TrangDoctor\\appsettings.json",
+              "ToolTip": "D:\\HK3- 2023-2024\\Ph\u00E1t Tri\u1EC3n \u1EE8ng D\u1EE5ng\\Cu\u1ED1i k\u00EC\\TrangDoctor\\TrangDoctor\\appsettings.json",
+              "RelativeToolTip": "TrangDoctor\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-13T17:12:45.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

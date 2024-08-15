@@ -1,0 +1,29 @@
+﻿@model TrangDoctor.Models.DoctorSearchViewModel
+
+@if (Model.Doctors != null && Model.Doctors.Any())
+{
+    <div class="search-results">
+        @foreach (var doctor in Model.Doctors)
+        {
+            <div class="doctor-card">
+                <img src="@Url.Content(doctor.ImageUrl)" alt="Hình ảnh bác sĩ" class="doctor-image" />
+                <div>
+                    <h3>@doctor.FullName</h3>
+                    <p>Chuyên khoa: @doctor.Specialty</p>
+                    <p>Học vị: @doctor.Position</p>
+                    <p>Lịch khám:</p>
+                    <!-- Liệt kê các lịch khám -->
+                    @foreach (var appointment in doctor.Appointments)
+                    {
+                        <p>@appointment.AppointmentDate.ToShortDateString() - @appointment.AppointmentTime</p>
+                    }
+                    <a href="@Url.Action("Details", "Doctor", new { id = doctor.DoctorId })" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Không tìm thấy bác sĩ nào phù hợp.</p>
+}
