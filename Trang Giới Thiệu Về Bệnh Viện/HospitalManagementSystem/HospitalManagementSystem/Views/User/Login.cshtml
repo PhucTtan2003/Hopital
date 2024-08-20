@@ -1,0 +1,136 @@
+﻿@model HospitalManagementSystem.Data.Account
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BACH MAI Hospital</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-jcjqMwmdU8IyDhXibPAGyXHUN04ENz9MRlcUUbqNSBRhs6Ni63hVsdrjF4mnuVb" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('../images/login-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            margin-top: 5%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+            .login-container h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #0c2340;
+            }
+
+            .login-container h4 {
+                color: #0c2340;
+            }
+
+        .form-group label {
+            font-weight: bold;
+            color: #0c2340;
+        }
+
+        .btn-primary {
+            background-color: #0c2340;
+            border: none;
+            color: #fff;
+        }
+
+            .btn-primary:hover {
+                background-color: #073149;
+            }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .forgot-password,
+        .register-link {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+            .forgot-password a,
+            .register-link a {
+                color: #0c2340;
+            }
+
+                .forgot-password a:hover,
+                .register-link a:hover {
+                    color: #073149;
+                }
+
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .back-link a {
+                color: #0c2340;
+                font-weight: bold;
+            }
+
+                .back-link a:hover {
+                    color: #073149;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 login-container">
+                <h1>Login</h1>
+                <h4>Account</h4>
+                <hr />
+                <form asp-action="Login">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Username" class="control-label"></label>
+                        <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PasswordAccount" class="control-label"></label>
+                        <input asp-for="PasswordAccount" type="password" class="form-control" placeholder="Enter your password" />
+                        <span asp-validation-for="PasswordAccount" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Role" class="control-label"></label>
+                        <input asp-for="Role" class="form-control" placeholder="Enter your role" />
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Login" class="btn btn-primary btn-block" />
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <div class="register-link">
+                        <a href="https://localhost:44354/User/Register">Don't have an account? Register here</a>
+                    </div>
+                </form>
+                <div class="back-link">
+                    <a asp-action="Index">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpujzy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Btfp4fYxovFwJDbyG09mAsO66MEwVPHznSCzccQVgrhMAVbmZX1t17NjHFPvrmRl" crossorigin="anonymous"></script>
+</body>
+</html>

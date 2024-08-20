@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\m\u00F4 h\u00ECnh ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m agile\\gi\u1EEFa k\u1EF3\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\introduce\\thongtinlienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\views\\introduce\\thongtinlienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\m\u00F4 h\u00ECnh ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m agile\\gi\u1EEFa k\u1EF3\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\introduce\\thanhtuu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\views\\introduce\\thanhtuu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\m\u00F4 h\u00ECnh ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m agile\\gi\u1EEFa k\u1EF3\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\introduce\\tamnhinsumechcotloi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\views\\introduce\\tamnhinsumechcotloi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|d:\\m\u00F4 h\u00ECnh ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m agile\\gi\u1EEFa k\u1EF3\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitalmanagementsystem\\views\\introduce\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\views\\introduce\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\hospitalmanagementsystem\\controllers\\introducecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A274BB-B507-4957-BB20-AEF6732218E4}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\controllers\\introducecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntroduceController.cs",
+              "DocumentMoniker": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\IntroduceController.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Controllers\\IntroduceController.cs",
+              "ToolTip": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Controllers\\IntroduceController.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Controllers\\IntroduceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T02:46:54.098Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:354128415:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThongTinLienHe.cshtml",
+              "DocumentMoniker": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\ThongTinLienHe.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Views\\Introduce\\ThongTinLienHe.cshtml",
+              "ToolTip": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\ThongTinLienHe.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Views\\Introduce\\ThongTinLienHe.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAIwMkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T01:51:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThanhTuu.cshtml",
+              "DocumentMoniker": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\ThanhTuu.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Views\\Introduce\\ThanhTuu.cshtml",
+              "ToolTip": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\ThanhTuu.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Views\\Introduce\\ThanhTuu.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAUBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T01:51:04.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TamNhinSuMechCotLoi.cshtml",
+              "DocumentMoniker": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\TamNhinSuMechCotLoi.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Views\\Introduce\\TamNhinSuMechCotLoi.cshtml",
+              "ToolTip": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\TamNhinSuMechCotLoi.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Views\\Introduce\\TamNhinSuMechCotLoi.cshtml",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAIwJkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T01:50:43.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LichSu.cshtml",
+              "DocumentMoniker": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\LichSu.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Views\\Introduce\\LichSu.cshtml",
+              "ToolTip": "D:\\M\u00D4 H\u00CCNH PH\u00C1T TRI\u1EC2N PH\u1EA6N M\u1EC0M AGILE\\GI\u1EEEA K\u1EF2\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\Views\\Introduce\\LichSu.cshtml",
+              "RelativeToolTip": "HospitalManagementSystem\\Views\\Introduce\\LichSu.cshtml",
+              "ViewState": "AQIAALkAAAAAAAAAAAAIwMYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T01:50:22.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
