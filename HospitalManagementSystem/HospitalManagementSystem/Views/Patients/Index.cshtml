@@ -1,0 +1,125 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.Patient>
+
+@{
+    ViewData["Title"] = "Patient List";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-radius: 60px;">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="~/images/bv4.jpg" alt=" Logo" class="logo" style="border-radius: 60px; height:100px; width:100px;" />
+                </a>
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="https://localhost:44354/">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Giới thiệu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Chuyên khoa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://localhost:44354/patients/create">Tạo hồ sơ khám Bênh</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Thành tựu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://localhost:44354/user/login">Đăng nhập</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="text-center mt-4">Create</h1>
+        <h4 class="text-center">Patient</h4>
+        <hr />
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h2 class="text-primary">Patient List</h2>
+                        <a asp-action="Create" class="btn btn-success">Create New Patient</a>
+                    </div>
+                    <div style="height: 400px; overflow-y: scroll;">
+                        <table class="table table-hover table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.LastName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.DateOfBirth)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Gender)</th>
+                                    <th>@Html.DisplayNameFor(model => model.AddressPatients)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Phone)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Account)</th>
+                                    <th class="text-center">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.DateOfBirth)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.AddressPatients)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Account.AccountId)</td>
+                                        <td class="text-center">
+                                            <a asp-action="Edit" asp-route-id="@item.PatientId" class="btn btn-sm btn-primary" style="border-radius:20px">Edit</a>
+                                            <a asp-action="Details" asp-route-id="@item.PatientId" class="btn btn-sm btn-info" style="border-radius:20px">Details</a>
+                                            <a asp-action="Delete" asp-route-id="@item.PatientId" class="btn btn-sm btn-danger" style="border-radius:20px">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a asp-action="Index">Back to List</a>
+        </div>
+        <footer class="bg-dark text-white mt-4">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <h3>TP. Hà Nội</h3>
+                        <p><strong>Địa chỉ:</strong> 168 Phố Hoàng Như Tiếp, P. Bồ Đề, Q. Long Biên</p>
+                        <p><strong>Số điện thoại:</strong> 024 7106 6858, 024 3872 3872</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h3>TP. Hồ Chí Minh</h3>
+                        <p><strong>Địa chỉ:</strong> 28 Phổ Quang, Phường 2, Quận Tân Bình</p>
+                        <p><strong>Số điện thoại:</strong> 028 7102 6789, 093 180 6858</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
