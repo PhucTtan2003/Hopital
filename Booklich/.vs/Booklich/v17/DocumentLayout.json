@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\views\\patient\\selectdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\views\\patient\\selectdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\data\\selectspecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\data\\selectspecialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\data\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\data\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\data\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\data\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|d:\\ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\booklich\\booklich\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9763206-6FCE-47C3-8D51-090423B8F099}|Booklich\\Booklich.csproj|solutionrelative:booklich\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectDoctor.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\SelectDoctor.cshtml",
+              "RelativeDocumentMoniker": "Booklich\\Views\\Patient\\SelectDoctor.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\SelectDoctor.cshtml",
+              "RelativeToolTip": "Booklich\\Views\\Patient\\SelectDoctor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T11:42:30.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectSpecialty.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\SelectSpecialty.cs",
+              "RelativeDocumentMoniker": "Booklich\\Data\\SelectSpecialty.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\SelectSpecialty.cs",
+              "RelativeToolTip": "Booklich\\Data\\SelectSpecialty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:25:34.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Booklich\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Booklich\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T10:19:27.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "Booklich\\Views\\Patient\\Index.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "Booklich\\Views\\Patient\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:46:36.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Booklich\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Booklich\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAI8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:32:19.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\Session.cs",
+              "RelativeDocumentMoniker": "Booklich\\Data\\Session.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\Session.cs",
+              "RelativeToolTip": "Booklich\\Data\\Session.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:25:33.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Booklich\\Models\\Doctor.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Doctor.cs",
+              "RelativeToolTip": "Booklich\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:16:40.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Booklich\\Models\\Appointment.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Appointment.cs",
+              "RelativeToolTip": "Booklich\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:17:05.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Booklich\\Views\\Patient\\Edit.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "Booklich\\Views\\Patient\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:01:34.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Booklich\\Views\\Patient\\Delete.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Delete.cshtml",
+              "RelativeToolTip": "Booklich\\Views\\Patient\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T10:01:01.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Booklich\\Views\\Patient\\Create.cshtml",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "Booklich\\Views\\Patient\\Create.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:47:48.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "Booklich\\Data\\HospitalDbContext.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "Booklich\\Data\\HospitalDbContext.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAIA+wDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:01:10.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Booklich\\Models\\Patient.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Patient.cs",
+              "RelativeToolTip": "Booklich\\Models\\Patient.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:15:57.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Booklich\\Models\\Department.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Department.cs",
+              "RelativeToolTip": "Booklich\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:16:16.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Booklich\\Models\\Account.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Models\\Account.cs",
+              "RelativeToolTip": "Booklich\\Models\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:15:24.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TimeSlot.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\TimeSlot.cs",
+              "RelativeDocumentMoniker": "Booklich\\Data\\TimeSlot.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Data\\TimeSlot.cs",
+              "RelativeToolTip": "Booklich\\Data\\TimeSlot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:14:57.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Program.cs",
+              "RelativeDocumentMoniker": "Booklich\\Program.cs",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\Program.cs",
+              "RelativeToolTip": "Booklich\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T07:58:07.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\appsettings.json",
+              "RelativeDocumentMoniker": "Booklich\\appsettings.json",
+              "ToolTip": "D:\\Ph\u00E1t tri\u1EC3n \u1EE9ng d\u1EE5ng\\Booklich\\Booklich\\appsettings.json",
+              "RelativeToolTip": "Booklich\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-21T07:58:08.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
