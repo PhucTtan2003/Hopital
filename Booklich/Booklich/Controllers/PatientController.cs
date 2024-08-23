@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Booklich.Controllers
 {
@@ -113,38 +114,60 @@ namespace Booklich.Controllers
         {
             return _context.Patients.Any(e => e.PatientId == id);
         }
-        // GET: Patient/SelectDoctor/5
-        public ActionResult SelectDoctor(int id, string searchQuery)
+        [HttpPost]
+        public IActionResult BookAppointment(string specialty)
         {
-            var patient = _context.Patients.Find(id);
-            if (patient == null)
+            // Redirect to the SelectDoctor action with the chosen specialty
+            return RedirectToAction("SelectDoctor", new { specialty });
+        }
+        // GET: Patient/SelectSpecialty
+        public async Task<IActionResult> SelectSpecialty()
+        {
+            // Retrieve all specialties from the database
+            var specialties = await _context.SelectSpecialties
+                                            .Select(s => s.Specialty)
+                                            .ToListAsync();
+
+            if (specialties == null || specialties.Count == 0)
             {
-                return NotFound();
+                return RedirectToAction("Error", new { message = "Không tìm thấy chuyên khoa." });
             }
 
-            ViewBag.PatientID = id;
+            return View(specialties);
+        }
 
-            // Filter doctors based on the search query
-            var doctors = _context.Doctors.AsQueryable();
+        public async Task<IActionResult> SelectDoctor(string specialty)
+        {
+            // Retrieve all doctors with the selected specialty
+            var doctors = await _context.Doctors
+                                        .Where(d => d.Specialty == specialty)
+                                        .ToListAsync();
 
-            if (!string.IsNullOrEmpty(searchQuery))
+            if (doctors.Count == 0)
             {
-                doctors = doctors.Where(d => d.FullName.Contains(searchQuery) || d.Specialty.Contains(searchQuery));
+                return RedirectToAction("Error", new { message = "Không tìm thấy bác sĩ nào cho chuyên khoa này." });
             }
 
-            return View(doctors.ToList());
+            ViewBag.Specialty = specialty;
+            return View(doctors);
         }
-
-        public ActionResult BookAppointment(int patientId, int doctorId)
+        public async Task<IActionResult> SelectTimeSlot(int doctorId, int patientId)
         {
-            // Logic to book an appointment with the selected doctor for the patient
+            // Retrieve all available time slots for the selected doctor
+            var timeSlots = await _context.TimeSlots
+                                          .Where(t => t.DoctorId == doctorId && t.IsAvailable)
+                                          .ToListAsync();
 
-            // Redirect to the appointment confirmation or details page
-            return RedirectToAction("ConfirmAppointment", new { patientId, doctorId });
+            if (timeSlots.Count == 0)
+            {
+                return RedirectToAction("Error", new { message = "Không có khung giờ nào có sẵn cho bác sĩ này." });
+            }
+
+            ViewBag.DoctorID = doctorId;
+            ViewBag.PatientID = patientId;
+            return View(timeSlots);
+
         }
-
-        // GET: Patient/BookAppointment?patientId=1&doctorId=2
-
 
     }
 }

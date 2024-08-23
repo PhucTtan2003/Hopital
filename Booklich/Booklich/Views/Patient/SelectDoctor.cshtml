@@ -2,70 +2,35 @@
 
 @{
     ViewData["Title"] = "Chọn Bác Sĩ";
-    int patientId = (int)ViewBag.PatientID;
 }
 
-<h1>Chọn Bác Sĩ</h1>
+<h2>Select a Doctor</h2>
 
-<div class="doctor-list-container">
-    <div class="doctor-selection">
-        <h4>Vui lòng chọn bác sĩ</h4>
-
-        <!-- Search form -->
-        <form method="get" asp-action="SelectDoctor">
-            <input type="hidden" name="id" value="@patientId" />
-            <div class="input-group mb-3">
-                <input type="text" name="searchQuery" class="form-control" placeholder="Tìm kiếm bác sĩ" value="selectQuery" />
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="submit">Tìm kiếm</button>
-                </div>
-            </div>
-        </form>
-
-        <div class="doctor-list">
+@if (!Model.Any())
+{
+    <p>No doctors available for this specialty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Doctor Name</th>
+                <th>Specialty</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
             @foreach (var doctor in Model)
             {
-                <div class="doctor-item">
-                    <h5>BS @doctor.FullName</h5>
-
-                    <p>Chuyên khoa: @doctor.Specialty</p>
-
-
-                    <a asp-action="BookAppointment" asp-route-patientId="@patientId" asp-route-doctorId="@doctor.DoctorId" class="btn btn-primary">Chọn</a>
-                </div>
+                <tr>
+                    <td>@doctor.FullName</td>
+                    <td>@doctor.Specialty</td>
+                    <td>
+                        <a asp-action="SelectTimeSlot" asp-route-doctorId="@doctor.DoctorId" asp-route-patientId="@ViewBag.PatientID" class="btn btn-primary">Select Time Slot</a>
+                    </td>
+                </tr>
             }
-        </div>
-    </div>
-</div>
-
-@section Scripts {
-    <style>
-        .doctor-list-container {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .doctor-selection {
-            width: 75%;
-        }
-
-        .doctor-list {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .doctor-item {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            background-color: #fff;
-            cursor: pointer;
-            transition: border-color 0.3s ease, background-color 0.3s ease;
-        }
-
-            .doctor-item h5 {
-                margin-top: 0;
-            }
-    </style>
+        </tbody>
+    </table>
 }

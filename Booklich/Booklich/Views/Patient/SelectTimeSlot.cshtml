@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Booklich.Data.TimeSlot>
+
+@{
+    ViewData["Title"] = "Select a Time Slot";
+}
+
+<h2>Select a Time Slot</h2>
+
+@if (!Model.Any())
+{
+    <p>No available time slots for this doctor.</p>
+}
+else
+{
+    <form asp-action="ConfirmAppointment" method="post">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var slot in Model)
+                {
+                    <tr>
+                        <td>@slot.Date.ToShortDateString()</td>
+                        <td>@slot.Time</td>
+                        <td>
+                            <input type="radio" name="TimeSlotID" value="@slot.TimeSlotId" required />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="hidden" name="DoctorID" value="@ViewBag.DoctorID" />
+        <input type="hidden" name="PatientID" value="@ViewBag.PatientID" />
+        <button type="submit" class="btn btn-primary">Confirm Appointment</button>
+    </form>
+}
+<a asp-action="SelectDoctor" asp-route-specialty="@ViewBag.Specialty">Back to Doctor Selection</a>

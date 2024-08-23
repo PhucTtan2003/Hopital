@@ -1,0 +1,16 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Chọn Chuyên Khoa";
+}
+
+<h1>Vui lòng chọn chuyên khoa</h1>
+
+<form asp-action="BookAppointment" method="post">
+    <div class="list-group">
+        @foreach (var specialty in Model)
+        {
+            <button type="submit" name="specialty" value="@specialty" class="list-group-item list-group-item-action">@specialty</button>
+        }
+    </div>
+</form>

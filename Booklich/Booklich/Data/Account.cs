@@ -11,7 +11,7 @@ public partial class Account
 
     public string PasswordAccount { get; set; } = null!;
 
-    public string Role { get; set; } = null!;
+    public string Roles { get; set; } = null!;
 
     public virtual ICollection<Patient> Patients { get; set; } = new List<Patient>();
 }

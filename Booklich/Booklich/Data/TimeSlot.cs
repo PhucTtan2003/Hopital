@@ -15,5 +15,7 @@ public partial class TimeSlot
 
     public bool IsAvailable { get; set; }
 
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
     public virtual Doctor Doctor { get; set; } = null!;
 }

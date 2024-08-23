@@ -11,9 +11,9 @@ public partial class Appointment
 
     public int DoctorId { get; set; }
 
-    public DateTime AppointmentDate { get; set; }
+    public int TimeSlotId { get; set; }
 
-    public string TimeSlot { get; set; } = null!;
+    public DateTime AppointmentDate { get; set; }
 
     public decimal Fee { get; set; }
 
@@ -22,4 +22,6 @@ public partial class Appointment
     public virtual Doctor Doctor { get; set; } = null!;
 
     public virtual Patient Patient { get; set; } = null!;
+
+    public virtual TimeSlot TimeSlot { get; set; } = null!;
 }

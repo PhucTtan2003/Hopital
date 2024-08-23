@@ -27,8 +27,6 @@ public partial class Doctor
 
     public virtual Department? Department { get; set; }
 
-    public virtual ICollection<DoctorSearch> DoctorSearches { get; set; } = new List<DoctorSearch>();
-
     public virtual ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
 
     public virtual ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
