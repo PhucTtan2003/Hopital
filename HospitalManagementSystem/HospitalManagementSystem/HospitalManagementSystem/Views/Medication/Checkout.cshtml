@@ -1,0 +1,144 @@
+﻿@model HospitalManagementSystem.Models.CartItem
+
+<h1>Thanh toán</h1>
+
+<div class="checkout-container">
+    <div class="checkout-item">
+        <img src="@Url.Content($"/images/Medication/{Model.MedicationImage}")" alt="Hình ảnh thuốc" class="checkout-image" />
+        <div class="checkout-info">
+            <h3>@Model.MedicationName</h3>
+            <p><strong>Giá:</strong> @Model.Price.ToString("C")</p>
+            <form asp-action="ProcessPayment" method="post">
+                <div class="form-group">
+                    <label for="quantity">Số lượng:</label>
+                    <input type="number" id="quantity" name="Quantity" value="@Model.Quantity" min="1" max="100" class="form-control" />
+                </div>
+                <div>
+                    <p>
+                        <strong>Tổng tiền:</strong>
+                        <span id="totalPrice" data-price="@Model.Price">@Model.Total.ToString("C")</span>
+                    </p>
+                </div>
+                <button type="submit" class="btn btn-success">Thanh toán</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+@section Scripts {
+    <script>
+        document.getElementById("quantity").addEventListener("input", function () {
+            var quantity = this.value;
+            var price = parseFloat(document.getElementById("totalPrice").getAttribute("data-price"));
+            var total = quantity * price;
+            document.getElementById("totalPrice").innerText = total.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+        });
+    </script>
+}
+<style>
+    /* Đặt nền cho container chính */
+    .checkout-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Căn chỉnh các mục trong container */
+    .checkout-item {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Kiểu cho hình ảnh thuốc */
+    .checkout-image {
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Kiểu cho thông tin về thuốc */
+    .checkout-info {
+        flex-grow: 1;
+    }
+
+        .checkout-info h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .checkout-info p {
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+
+            .checkout-info p strong {
+                color: #000;
+            }
+
+    /* Kiểu cho các form input */
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+        }
+
+    /* Kiểu cho nút thanh toán */
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+    /* Định dạng cho tổng tiền */
+    #totalPrice {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #333;
+    }
+
+
+
+
+    .checkout-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn-success {
+        width: 100%;
+        padding: 15px;
+    }
+
+    }
+</style>
