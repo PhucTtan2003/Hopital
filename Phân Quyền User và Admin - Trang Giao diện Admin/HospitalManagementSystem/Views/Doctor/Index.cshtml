@@ -1,0 +1,404 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.Doctor>
+
+@{
+    ViewData["Title"] = "Chuyên Khoa";
+}
+
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-radius: 60px;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="~/images/bv4.jpg" alt=" Logo" class="logo" style="border-radius: 60px; height:100px; width:100px;" />
+            </a>
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://localhost:7114/">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Chuyên khoa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://localhost:7114/patients/create">Tạo hồ sơ khám Bênh</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Thành tựu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://localhost:7114/user/login">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container mt-4">
+    <div class="row mb-3" style="text-align: center;">
+        <div class="col-md-6">
+            <h2>@ViewData["Title"]</h2>
+        </div>
+    </div>
+
+
+    <!-- Paragraph -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="alert alert-info p-3" style="text-align: justify; border-radius:15px;">
+                <p>Bệnh viện đang phát triển theo hướng tiếp cận điều trị đa phương thức, tập trung nguồn lực và tăng cường phối hợp bằng cách thành lập các trung tâm chuyên khoa. Các trung tâm này hợp tác chặt chẽ với nhau để tiến hành hội chẩn chung cho bệnh nhân, từ đó đề xuất các phương pháp điều trị kết hợp nhiều chuyên khoa. Mô hình điều trị đa phương thức mang lại nhiều lợi ích, đặc biệt đối với những bệnh nhân có nhiều tình trạng phức tạp, giúp họ nhận được chẩn đoán toàn diện và điều trị hiệu quả. </p>
+
+                <p>Nhờ sự hợp tác chặt chẽ giữa các chuyên khoa, bệnh viện không chỉ cải thiện chất lượng điều trị mà còn tạo điều kiện tối ưu cho bệnh nhân tiếp cận các phương pháp tiên tiến nhất. Điều này không chỉ giúp nâng cao hiệu quả điều trị mà còn mang lại sự an tâm và tin tưởng cho bệnh nhân và gia đình. Bằng việc phát huy tối đa lợi thế của mô hình điều trị đa phương thức, bệnh viện đang tiến gần hơn đến mục tiêu trở thành trung tâm y tế hàng đầu với các dịch vụ y tế toàn diện, chất lượng cao.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <form method="get" class="form-inline justify-content-center align-items-center" id="searchForm">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="text" id="searchInput" name="searchString" class="form-control" placeholder="Tìm Chuyên Khoa" onkeyup="filterSpecialties()" />
+                </div>
+                <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-search"></i> Tìm Kiếm</button>
+            </form>
+            <div id="suggestionBox" class="suggestion-box"></div>
+        </div>
+    </div>
+
+
+    <!-- Doctor List -->
+    <div class="row">
+        <!-- Doctor Card -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("CapCuuEmergency", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Cấp cứu - Emergency.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Cấp cứu - Emergency</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Repeat Doctor Card for each Doctor -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("GayMeHoiSuc", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Gây mê hồi sức - Anesthesiology and Resuscitation.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Gây mê hồi sức - Anesthesiology and Resuscitation</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("HoHapRespiratory", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Hô hấp - Respiratory.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Hô hấp - Respiratory</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("NoiSoiEndoscopy", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Nội soi - Endoscopy.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Nội soi - Endoscopy</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Add more Doctor Cards as needed -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("TaiMuiHongOtolaryngology", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tai - Mũi - Họng - Otolaryngology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tai - Mũi - Họng - Otolaryngology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("HoiSucTichCucIntensiveCare", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Hồi sức tích cực - Intensive Care.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Hồi sức tích cực - Intensive Care</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("TimMachCardiology", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tim mạch - Cardiology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tim mạch - Cardiology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="doctor-card bg-light rounded shadow-sm">
+                <a href="@Url.Action("TieuHoaGastroenterology", "Doctor")" class="text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-primary rounded-top">
+                        <img src="~/Images/Doctor/Tiêu hoá - Gastroenterology.png" alt="" class="icon" style="width: 40px; height: 40px;">
+                        <span class="text-white">Tiêu hoá - Gastroenterology</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Phần dưới của trang web-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Thông tin bệnh viện -->
+            <div class="col-md-4">
+                <img src="~/images/bv4.jpg" alt="Logo" class="footer-logo">
+                <h4>Bệnh Viện TPHCM</h4>
+                <p><strong>Địa chỉ:</strong> 215 Hồng Bàng, Phường 11, Quận 8, TP.HCM</p>
+                <p><strong>ĐT:</strong> (028) 3855 4269</p>
+                <p><strong>Email:</strong> bvdhyd@umc.edu.vn</p>
+                <p><strong>Website:</strong> <a href="http://www.bvdaihoc.com.vn">www.Bệnh Viện TP.HCM.com.vn</a></p>
+            </div>
+            <!-- Hệ thống -->
+            <div class="col-md-4">
+                <h4>Hệ thống</h4>
+                <ul>
+                    <li><strong>Cơ sở 1</strong></li>
+                    <li><strong>Cơ sở 2</strong></li>
+                    <li><strong>Cơ sở 3</strong></li>
+                    <li><strong>Phòng khám Bệnh Viện TP.HCM</strong></li>
+                </ul>
+            </div>
+            <!-- Hỗ trợ -->
+            <div class="col-md-4">
+                <div class="support-box">
+                    <p><strong>Hỗ trợ chuyên môn</strong></p>
+                    <p><strong>028 3855 4269</strong></p>
+                </div>
+                <div class="support-box">
+                    <p><strong>Tổng đài đặt khám</strong></p>
+                    <p><strong>1900 7178</strong></p>
+                </div>
+                <div class="qr-code">
+                    <p><strong>Tải ứng dụng Hopital Care</strong></p>
+                    <img src="~/images/Doctor/qr-code.png" alt="QR Code">
+                </div>
+                <div class="social-icons">
+                    <p><strong>Theo dõi tin tức từ</strong></p>
+                    <a href="#"><img src="~/images/Doctor/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="~/images/Doctor/youtube-icon.png" alt="YouTube"></a>
+                    <a href="#"><img src="~/images/Doctor/zalo-icon.png" alt="Zalo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>Bản quyền thuộc về Hopital Care</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- FontAwesome for search icon -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!--Css Giao diện toàn bộ của trang-->
+<style>
+    .doctor-card {
+        transition: transform 0.2s;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+        .doctor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .doctor-card a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .bg-primary {
+        background-color: #007bff !important;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+
+    .rounded-top {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    }
+
+    /* Điều chỉnh form tìm kiếm */
+    .form-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-group {
+        flex: 1;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        border-radius: 0 5px 5px 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .suggestion-box {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+        max-height: 150px;
+        overflow-y: auto;
+    }
+
+        .suggestion-box a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+
+            .suggestion-box a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Css của phần bên dưới */
+    .footer {
+        background-color: #f0f4ff;
+        padding: 30px 0;
+        font-size: 14px;
+        color: #003366;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+        color: #003366;
+        margin-bottom: 10px;
+    }
+
+    .footer p, .footer a {
+        color: #003366;
+        margin-bottom: 5px;
+    }
+
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .footer ul li {
+            margin-bottom: 5px;
+        }
+
+    .support-box {
+        background-color: #007bff;
+        color: #fff;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .qr-code img {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+        .social-icons img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+    .text-center {
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+    }
+
+</style>
+
+<!-- JavaScript -->
+<script>
+    // Tạo mảng chứa tên các chuyên khoa
+    var specialties = [
+        { name: "Cấp cứu - Emergency", link: "@Url.Action("CapCuuEmergency", "Doctor")" },
+        { name: "Gây mê hồi sức - Anesthesiology and Resuscitation", link: "@Url.Action("GayMeHoiSuc", "Doctor")" },
+        { name: "Hô hấp - Respiratory", link: "@Url.Action("HoHapRespiratory", "Doctor")" },
+        { name: "Nội soi - Endoscopy", link: "@Url.Action("NoiSoiEndoscopy", "Doctor")" },
+        { name: "Tai - Mũi - Họng - Otolaryngology", link: "@Url.Action("TaiMuiHongOtolaryngology", "Doctor")" },
+        { name: "Hồi sức tích cực - Intensive Care", link: "@Url.Action("HoiSucTichCucIntensiveCare", "Doctor")" },
+        { name: "Tim mạch - Cardiology", link: "@Url.Action("TimMachCardiology", "Doctor")" },
+        { name: "Tiêu hoá - Gastroenterology", link: "@Url.Action("TieuHoaGastroenterology", "Doctor")" }
+    ];
+
+    function filterSpecialties() {
+        var input = document.getElementById('searchInput');
+        var filter = input.value.toLowerCase();
+        var suggestionBox = document.getElementById('suggestionBox');
+        suggestionBox.innerHTML = ''; // Clear any previous suggestions
+
+        if (filter.length > 0) {
+            specialties.forEach(function (specialty) {
+                if (specialty.name.toLowerCase().indexOf(filter) > -1) {
+                    var suggestionItem = document.createElement('a');
+                    suggestionItem.innerText = specialty.name;
+                    suggestionItem.href = specialty.link;
+                    suggestionBox.appendChild(suggestionItem);
+                }
+            });
+        }
+    }
+</script>
+
