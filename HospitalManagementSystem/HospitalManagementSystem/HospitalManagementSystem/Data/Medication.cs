@@ -9,6 +9,12 @@ public partial class Medication
 
     public string MedicationName { get; set; } = null!;
 
+    public string MedicationImage { get; set; } = null!;
+
+    public string FeeMedication { get; set; } = null!;
+
+    public string StatusMedication { get; set; } = null!;
+
     public string? DescriptionMedications { get; set; }
 
     public string Dosage { get; set; } = null!;

@@ -11,7 +11,7 @@ public partial class MedicalRecord
 
     public int DoctorId { get; set; }
 
-    public DateOnly DateMedical { get; set; }
+    public DateOnly MedicalDate { get; set; }
 
     public string Diagnosis { get; set; } = null!;
 

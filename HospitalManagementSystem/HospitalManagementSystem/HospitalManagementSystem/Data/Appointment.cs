@@ -11,17 +11,15 @@ public partial class Appointment
 
     public int DoctorId { get; set; }
 
-    public int DepartmentId { get; set; }
+    public int TimeSlotId { get; set; }
 
-    public DateOnly AppointmentDate { get; set; }
-
-    public TimeOnly AppointmentTime { get; set; }
+    public decimal Fee { get; set; }
 
     public string? Notes { get; set; }
-
-    public virtual Department Department { get; set; } = null!;
 
     public virtual Doctor Doctor { get; set; } = null!;
 
     public virtual Patient Patient { get; set; } = null!;
+
+    public virtual TimeSlot TimeSlot { get; set; } = null!;
 }

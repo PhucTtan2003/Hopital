@@ -3,15 +3,16 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using HospitalManagementSystem.Data;
 using HospitalManagementSystem.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace TrangDoctor.Controllers
+namespace SearchingDoctorController.Controllers
 {
-    public class DoctorController : Controller
+    public class SearchingDoctorController : Controller
     {
         private readonly HospitalDbContext _context;
 
         // Constructor nhận DbContext để tương tác với cơ sở dữ liệu
-        public DoctorController(HospitalDbContext context)
+        public SearchingDoctorController(HospitalDbContext context)
         {
             _context = context;
         }
@@ -21,35 +22,31 @@ namespace TrangDoctor.Controllers
         public IActionResult Search()
         {
             // Khởi tạo ViewModel và thiết lập các danh sách chọn (dropdown lists)
-            var viewModel = new HospitalManagementSystem.Models.DoctorSearchViewModel
+            var viewModel = new DoctorSearchViewModel
             {
-                // Lấy dữ liệu từ bảng SelectSpecialty, tạo danh sách dropdown với các chuyên khoa
+                // Lấy dữ liệu từ bảng Doctors, tạo danh sách dropdown với các chuyên khoa
                 Specialties = _context.Doctors
                     .Select(s => new SelectListItem
                     {
                         Value = s.Specialty,
                         Text = s.Specialty
-                    }).ToList(),
+                    }).Distinct().ToList(),
 
-                // Thiết lập danh sách các ngày trong tuần để tìm kiếm
-                DaysOfWeek = new List<SelectListItem>
-                {
-                    new SelectListItem { Value = "Monday", Text = "Thứ hai" },
-                    new SelectListItem { Value = "Tuesday", Text = "Thứ ba" },
-                    new SelectListItem { Value = "Wednesday", Text = "Thứ tư" },
-                    new SelectListItem { Value = "Thursday", Text = "Thứ năm" },
-                    new SelectListItem { Value = "Friday", Text = "Thứ sáu" },
-                    new SelectListItem { Value = "Saturday", Text = "Thứ bảy" },
-                    new SelectListItem { Value = "Sunday", Text = "Chủ nhật" }
-                },
+                // Lấy dữ liệu từ bảng TimeSlots để tạo danh sách dropdown với các ngày có lịch khám
+                Dates = _context.TimeSlots
+                    .Select(ts => new SelectListItem
+                    {
+                        Value = ts.Date.ToString("yyyy-MM-dd"),  // Chuyển đổi DateTime thành chuỗi
+                        Text = ts.Date.ToString("dd/MM/yyyy")
+                    }).Distinct().ToList(),
 
                 // Lấy dữ liệu từ bảng Doctors để tạo danh sách dropdown với học vị (Position)
                 Positions = _context.Doctors
                     .Select(p => new SelectListItem
                     {
-                        Value = p.Position, // Lấy tên đầy đủ làm giá trị (có thể dùng Id nếu cần)
-                        Text = p.Position   // Hiển thị học vị của bác sĩ
-                    }).ToList()
+                        Value = p.Position,
+                        Text = p.Position
+                    }).Distinct().ToList()
             };
 
             // Trả về View với ViewModel đã được khởi tạo
@@ -58,10 +55,12 @@ namespace TrangDoctor.Controllers
 
         // Action xử lý POST request để thực hiện tìm kiếm bác sĩ dựa trên các tiêu chí từ ViewModel
         [HttpPost]
-        public IActionResult Search(HospitalManagementSystem.Models.DoctorSearchViewModel model)
+        public IActionResult Search(DoctorSearchViewModel model)
         {
             // Khởi tạo truy vấn với bảng Doctors
-            var doctors = _context.Doctors.AsQueryable();
+            var doctors = _context.Doctors
+                .Include(d => d.TimeSlots) // Bao gồm cả TimeSlots để tìm kiếm
+                .AsQueryable();
 
             // Lọc theo chuyên khoa nếu người dùng chọn chuyên khoa
             if (!string.IsNullOrEmpty(model.SelectedSpecialty))
@@ -70,10 +69,9 @@ namespace TrangDoctor.Controllers
             }
 
             // Lọc theo ngày khám nếu người dùng chọn ngày khám
-            if (!string.IsNullOrEmpty(model.SelectedDay))
+            if (model.SearchDate.HasValue)
             {
-                doctors = doctors.Where(d => d.Appointments != null &&
-                    d.Appointments.Any(a => a.AppointmentDate.ToDateTime(TimeOnly.MinValue).DayOfWeek.ToString() == model.SelectedDay));
+                doctors = doctors.Where(d => d.TimeSlots.Any(ts => ts.Date.Date == model.SearchDate.Value.Date));
             }
 
             // Lọc theo học vị (Position) nếu người dùng chọn
@@ -103,7 +101,7 @@ namespace TrangDoctor.Controllers
 
         // Action xử lý GET request để hiển thị chi tiết bác sĩ
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Detail(int id)
         {
             // Tìm bác sĩ theo Id
             var doctor = _context.Doctors.FirstOrDefault(d => d.DoctorId == id);
@@ -114,8 +112,8 @@ namespace TrangDoctor.Controllers
 
             // Thiết lập đường dẫn ảnh nếu không có ảnh, sử dụng ảnh mặc định
             doctor.ImageUrl = string.IsNullOrEmpty(doctor.ImageUrl)
-                ? "/Images/default-doctor.jpg"  // Đường dẫn tới ảnh mặc định nếu không có ảnh
-                : $"/Images/{doctor.ImageUrl}";
+                ? "/images/default-doctor.jpg"  // Đường dẫn tới ảnh mặc định nếu không có ảnh
+                : $"/images/{doctor.ImageUrl}";
 
             // Trả về View chi tiết với dữ liệu bác sĩ
             return View(doctor);

@@ -32,4 +32,6 @@ public partial class Doctor
     public virtual ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
 
     public virtual ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
+
+    public virtual ICollection<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
 }

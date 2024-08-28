@@ -1,62 +1,28 @@
-﻿@model HospitalManagementSystem.Models.DoctorSearchViewModel
+﻿@model HospitalManagementSystem.Data.Doctor
 
-<div class="search-container">
-    <h1>TÌM BÁC SĨ</h1>
-    <p>Vui lòng chọn chuyên khoa cần khám hoặc nhập tên bác sĩ để tìm kiếm nhanh hơn.</p>
+<h1>Thông tin chi tiết bác sĩ</h1>
 
-    <form id="searchForm" asp-action="Search" method="post">
-        <div class="form-row">
-            <div class="form-group col-md-3">
-                <select asp-for="SelectedSpecialty" asp-items="Model.Specialties" class="form-control">
-                    <option value="">Tìm theo chuyên khoa</option>
-                </select>
-            </div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FullName</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Specialty</h6>
+        <p class="card-text">@Model.DescriptionDoctor</p>
+        <p><strong>Kinh nghiệm:</strong> @Model.Experience</p>
+        <p><strong>Học vấn:</strong> @Model.Education</p>
+        <p><strong>Chức vụ:</strong> @Model.Position</p>
 
-            <div class="form-group col-md-3">
-                <select asp-for="SearchDate" asp-items="Model.Dates" class="form-control">
-                    <option value="">Tìm theo ngày khám</option>
-                </select>
-            </div>
-
-            <div class="form-group col-md-3">
-                <select asp-for="SelectedPosition" asp-items="Model.Positions" class="form-control">
-                    <option value="">Tìm theo học hàm - học vị</option>
-                </select>
-            </div>
-
-            <div class="form-group col-md-3">
-                <input type="text" asp-for="DoctorName" class="form-control" placeholder="Tìm theo tên bác sĩ">
-            </div>
-        </div>
-    </form>
-
-    <div id="searchResults">
-        @await Html.PartialAsync("_SearchResults", Model)
+        @* Nếu cần hiển thị thêm thông tin lịch khám của bác sĩ, có thể thêm vào đây *@
+        <p><strong>Lịch khám:</strong></p>
+        <ul>
+            @foreach (var timeSlot in Model.TimeSlots)
+            {
+                <li>@timeSlot.Date.ToString("dd/MM/yyyy") - @timeSlot.Time</li>
+            }
+        </ul>
     </div>
 </div>
-
-@section Scripts {
-    <script>
-        $(document).ready(function () {
-            $('#searchForm select, #searchForm input').on('change', function () {
-                $.ajax({
-                    url: '@Url.Action("Search", "SearchingDoctor")',
-                    type: 'POST',
-                    data: $('#searchForm').serialize(),
-                    success: function (result) {
-                        $('#searchResults').html(result);
-                    },
-                    error: function (xhr, status, error) {
-                        console.error("An error occurred: " + error);
-                        $('#searchResults').html('<p>Sorry, there was an error processing your request.</p>');
-                    }
-                });
-            });
-        });
-    </script>
-    }
-  <style>
-      html {
+<style>
+    html {
     font-size: 14px;
 }
 
@@ -193,4 +159,4 @@ body {
             background-color: #0a3570;
         }
 
-  </style>
+</style>

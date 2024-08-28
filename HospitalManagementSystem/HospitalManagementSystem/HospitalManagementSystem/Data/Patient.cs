@@ -35,5 +35,5 @@ public partial class Patient
 
     public virtual ICollection<SelectSpecialty> SelectSpecialties { get; set; } = new List<SelectSpecialty>();
 
-    public virtual ICollection<Session> Sessions { get; set; } = new List<Session>();
+    public virtual ICollection<Sessionse> Sessionses { get; set; } = new List<Sessionse>();
 }

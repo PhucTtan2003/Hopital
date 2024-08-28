@@ -21,9 +21,7 @@ namespace HospitalManagementSystem.Controllers
                     AppointmentId = a.AppointmentId,
                     DoctorName = a.Doctor.FullName,
                     PatientName = a.Patient.LastName,
-                    DepartmentName = a.Department.DepartmentName,
-                    AppointmentDate = a.AppointmentDate.ToString(),
-                    AppointmentTime = a.AppointmentTime.ToString(),
+                   
                     Notes = a.Notes,
                 })
                 .ToList();

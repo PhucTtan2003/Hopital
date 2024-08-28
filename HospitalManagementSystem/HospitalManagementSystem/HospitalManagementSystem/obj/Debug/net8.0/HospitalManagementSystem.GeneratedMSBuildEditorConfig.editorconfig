@@ -130,8 +130,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/SearchingDoctor/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoaW5nRG9jdG9yXERldGFpbHMuY3NodG1s
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/SearchingDoctor/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoaW5nRG9jdG9yXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/SearchingDoctor/Search.cshtml]
