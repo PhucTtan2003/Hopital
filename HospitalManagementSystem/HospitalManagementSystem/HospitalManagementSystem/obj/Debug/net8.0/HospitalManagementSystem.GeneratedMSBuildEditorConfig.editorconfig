@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Education\MVC\HospitalManagementSystem\HospitalManagementSystem\HospitalManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Admin/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Appointment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +84,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/BanLanhDao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXEJhbkxhbmhEYW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/GioiThieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXEdpb2lUaGlldS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/LichSu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXExpY2hTdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/TamNhinSuMechCotLoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXFRhbU5oaW5TdU1lY2hDb3RMb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/ThanhTuu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXFRoYW5oVHV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Introduce/ThongTinLienHe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXFRob25nVGluTGllbkhlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Patients/Create.cshtml]

@@ -1,4 +1,5 @@
 ﻿using HospitalManagementSystem.Data;
+using HospitalManagementSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalManagementSystem.Controllers

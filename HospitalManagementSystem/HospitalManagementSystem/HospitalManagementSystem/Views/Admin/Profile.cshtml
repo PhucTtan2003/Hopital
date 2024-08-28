@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Quản trị Cập nhật thông tin</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Admin" asp-action="Profile" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="Avatar">Avatar</label>
+                            <div class="d-flex align-items-center">
+                                <div class="mr-3">
+                                    <img src="~/images/default-avatar.png" alt="Avatar" class="rounded-circle" style="width: 60px; height: 60px;">
+                                </div>
+                                <input type="file" class="form-control-file" id="Avatar" name="Avatar" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control" id="Email" name="Email" value="admin@ntt.vn" readonly />
+                        </div>
+                        <div class="form-group">
+                            <label for="FullName">Họ và tên</label>
+                            <input type="text" class="form-control" id="FullName" name="FullName" value="Nguyễn Tấn Nhã ( Manager )" />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="text-primary">Thay đổi mật khẩu</a>
+                        </div>
+                        <div class="form-group">
+                            <label for="PhoneNumber">Số điện thoại</label>
+                            <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber" value="0123456789" />
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success">Cập nhật</button>
+                            <button type="reset" class="btn btn-danger">Hủy bỏ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f4f7f6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    .form-group label {
+        font-weight: bold;
+        color: #495057;
+    }
+
+    .card {
+        border-radius: 12px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+    .card-header {
+        border-radius: 12px 12px 0 0;
+    }
+</style>

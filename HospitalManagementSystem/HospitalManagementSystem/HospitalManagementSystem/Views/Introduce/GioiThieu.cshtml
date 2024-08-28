@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "GioiThieu";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container mt-4">
+    <h1 class="text-center">BỆNH VIỆN TPHCM – PHÁT TRIỂN MẠNH MẼ, CHUẨN MỰC, VƯƠN XA</h1>
+
+    <p><strong>Bệnh viện TPHCM</strong> là một trong những bệnh viện đa khoa hạng I hàng đầu phía Nam với tầm nhìn trở thành bệnh viện dẫn đầu Việt Nam và đạt chuẩn quốc tế.</p>
+
+    <p>Trải qua gần 30 năm hình thành và phát triển, với sứ mệnh mang đến giải pháp chăm sóc sức khỏe tối ưu từ sự tích hợp giữa điều trị, nghiên cứu và đào tạo, Bệnh viện luôn duy trì, phát huy các giá trị cốt lõi: <strong>Tiên phong – Thấu hiểu – Chuẩn mực – An toàn</strong>.</p>
+
+    <img src="~/images/Introduce/gioithieu_1.jpg" alt="Hospital Image" class="img-fluid mt-4">
+
+    <h2 class="mt-4">Hệ thống bệnh viện</h2>
+    <p>Bệnh viện đã phát triển hệ thống gồm 3 cơ sở, 1.000 giường bệnh, 128 phòng khám ngoại trú. Bệnh viện quy tụ 100 Giáo sư, Phó giáo sư, chuyên gia đầu ngành hơn 3.000 cán bộ y tế. Mỗi năm, Bệnh viện tiếp nhận trung bình 2,5 triệu lượt người đến khám chữa bệnh, điều trị nội trú 80,000 người, phẫu thuật khoảng 30,000 trường hợp.</p>
+
+    <h2 class="mt-4">Ứng dụng công nghệ và điều trị tiên tiến</h2>
+    <p>Để người bệnh được chẩn đoán đúng, điều trị đúng với kết quả tốt nhất, Bệnh viện luôn tiên phong tiếp cận nhanh và ứng dụng các thành tựu y học tiên tiến trên thế giới trong việc khám, chữa bệnh. Với ưu thế là bệnh viện công lập đa chuyên khoa với nhiều mũi nhọn chuyên sâu như: Tiêu hóa, Tim mạch, Thần kinh, Hô hấp, Chấn thương chỉnh hình... người bệnh luôn được hội chẩn, chẩn đoán và điều trị với sự kết hợp đa chuyên khoa, ứng dụng các kỹ thuật y khoa tiên tiến với đội ngũ bác sĩ – điều dưỡng - dược sĩ chuyên nghiệp.</p>
+
+    <h2 class="mt-4">Phối hợp liên chuyên khoa</h2>
+    <p>Thế mạnh trong phối hợp liên chuyên khoa nhịp nhàng, chặt chẽ giúp đội ngũ y bác sĩ của Bệnh viện cứu sống ngoạn mục nhiều trường hợp bệnh lý phức tạp, nguy cơ tử vong cao. Đồng thời, các bệnh mạn tính nguy hiểm như ung thư, đột quỵ, tim mạch, hô hấp, đái tháo đường… cũng được phối hợp điều trị hiệu quả cho người bệnh.</p>
+
+    <p>Bệnh viện còn triển khai thành công các kỹ thuật ghép tạng phức tạp như: ghép gan từ người hiến sống, ghép gan từ người cho chết não, ghép gan trẻ em, ghép thận… Các ca ghép được thực hiện thường quy đã mang lại cơ hội sống cho nhiều người bệnh nặng, tiên lượng tử vong cao.</p>
+
+    <h2 class="mt-4">Hướng đến tương lai</h2>
+    <p>Với niềm tin rất lớn của người dân, Bệnh viện TPHCM định hướng phát triển thành hệ thống bệnh viện thông minh nhằm mở rộng quy mô hoạt động, đem đến mô hình chăm sóc sức khỏe toàn diện và đạt chuẩn quốc tế nhằm đáp ứng nhu cầu chăm sóc sức khỏe ngày càng cao của người dân trong và ngoài nước.</p>
+</div>
+
+<!--CSS-->
+<style>
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #f9f9f9; /* Thêm màu nền nhẹ */
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Thêm bóng */
+    }
+
+    .text-center {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 2em;
+        color: #004080;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.1em;
+        line-height: 1.8em;
+        padding: 10px 0; /* Thêm khoảng cách giữa các đoạn */
+        color: #333;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        margin-top: 30px;
+        color: #004080;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>

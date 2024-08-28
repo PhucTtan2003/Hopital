@@ -1,0 +1,246 @@
+﻿@{
+    ViewData["Title"] = "Thành Tựu và Chất Lượng";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center">THÀNH TỰU VÀ CHẤT LƯỢNG</h1>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_1.jpg" alt="ThanhTuu_1" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2023 - THÀNH TỰU CHUYÊN MÔN - ĐẠT CHỨNG NHẬN BẠCH KIM TRONG ĐIỀU TRỊ ĐỘT QUỴ</h2>
+                <p>Bệnh viện Đại học Y Dược TPHCM đã ghi dấu một bước tiến mới trong lĩnh vực điều trị đột quỵ với chứng nhận Bạch kim được cấp bởi Tổ chức Đột quỵ Thế giới.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_2.jpg" alt="ThanhTuu_2" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2022 - THÀNH TỰU CHUYÊN MÔN - CHƯƠNG TRÌNH TĂNG CƯỜNG HỒI PHỤC CHO NGƯỜI BỆNH SAU PHẪU THUẬT</h2>
+                <p>Chương trình tăng cường hồi phục cho người bệnh sau phẫu thuật (ERAS) áp dụng tại Bệnh viện Đại học Y Dược TPHCM làm giảm tỉ lệ biến chứng.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_3.jpg" alt="ThanhTuu_3" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2022 – THÀNH TỰU QUẢN TRỊ - CHUYỂN ĐỔI SỐ TẠI BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM</h2>
+                <p>BV ĐHYD TPHCM tiên phong triển khai ứng dụng Công nghệ thông tin (CNTT) từ khám, chữa bệnh tới quản trị hệ thống.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_4.jpg" alt="ThanhTuu_4" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2021 - THÀNH TỰU CHUYÊN MÔN - ĐẠI HỌC Y DƯỢC TPHCM VÀ BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM ĐẠT GIẢI THÀNH TỰU Y KHOA VIỆT NAM</h2>
+                <p>Giải thành tựu y khoa Việt Nam 2021 với mô hình “Chăm sóc F0 dựa vào cộng đồng” và “Phối hợp liên viện và ECMO cứu sống mẹ con sản phụ mắc COVID-19 nguy kịch”.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_5.jpg" alt="ThanhTuu_5" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2021 – THÀNH TỰU CHUYÊN MÔN - KỸ THUẬT ECMO GIÚP CỨU SẢN PHỤ MẮC COVID-19</h2>
+                <p>ECMO là một trong những kỹ thuật chuyên sâu về hồi sức cấp cứu, như một bộ máy thay thế cho phổi và một phần cho tim khi phổi không hoạt động được.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_6.jpg" alt="ThanhTuu_6" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2021 - THÀNH TỰU CHUYÊN MÔN - BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM THỰC HIỆN GHÉP GAN TRẺ EM</h2>
+                <p>Thành công của ca ghép gan trẻ em tại BV ĐHYD TPHCM góp phần mở ra nhiều hi vọng cho bệnh nhi bị bệnh lý về gan nặng, có chỉ định ghép gan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_7.jpg" alt="ThanhTuu_7" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2021 – THÀNH TỰU CHUYÊN MÔN - TRUNG TÂM TIM MẠCH HOÀN CHỈNH VỀ CHẨN ĐOÁN, CAN THIỆP VÀ PHẪU THUẬT TIM MẠCH</h2>
+                <p>Trung tâm Tim Mạch BV ĐHYD TPHCM hoạt động điều trị - nghiên cứu – đào tạo bao quát, đồng bộ với Nội tim mạch, Phẫu thuật tim mạch, Can thiệp tim mạch và Nhịp tim học.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_8.jpg" alt="ThanhTuu_8" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2021 – THÀNH TỰU CHUYÊN MÔN - PHẪU THUẬT TIM NỘI SOI VÀ ÍT XÂM LẤN</h2>
+                <p>Ngày nay, nhờ vào những tiến bộ của chuyên ngành gây mê hồi sức và tuần hoàn ngoài cơ thể, các bác sĩ phẫu thuật đã có thể đưa hệ thống tim phổi nhân tạo ra một vị trí khác của cơ thể.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_9.jpg" alt="ThanhTuu_9" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2020 - THÀNH TỰU CHUYÊN MÔN - BỆNH VIỆN NHẬN GIẢI THÀNH TỰU Y KHOA VIỆT NAM</h2>
+                <p>BV ĐHYD TPHCM được vinh danh tại Lễ trao giải Thành tựu y khoa Việt Nam 2020 cho thành tựu phẫu thuật tim nội soi, ít xâm lấn.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/images/Introduce/ThanhTuu_10.jpg" alt="ThanhTuu_10" class="achievement-img">
+            </div>
+            <div class="col-md-8">
+                <h2>2020 – THÀNH TỰU QUẢN TRỊ - LẤY NGƯỜI BỆNH LÀM TRUNG TÂM</h2>
+                <p>Trong những năm gần đây, an toàn người bệnh là nền tảng cho công tác đảm bảo chất lượng của hệ thống y tế Việt Nam trong quá trình đổi mới.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 2em;
+        color: #004080;
+    }
+
+    .achievement {
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .achievement h2 {
+            font-size: 1.4em;
+            color: #004080;
+            margin-bottom: 10px;
+        }
+
+        .achievement p {
+            font-size: 1em;
+            color: #333;
+            line-height: 1.6;
+        }
+
+    .achievement-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>

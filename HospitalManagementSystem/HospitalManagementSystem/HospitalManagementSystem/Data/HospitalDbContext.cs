@@ -61,7 +61,7 @@ public partial class HospitalDbContext : DbContext
 
             entity.Property(e => e.AccountId).HasColumnName("AccountID");
             entity.Property(e => e.PasswordAccount).HasMaxLength(255);
-            entity.Property(e => e.Role).HasMaxLength(50);
+            entity.Property(e => e.Roles).HasMaxLength(50);
             entity.Property(e => e.Username).HasMaxLength(50);
         });
 

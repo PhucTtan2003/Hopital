@@ -1,0 +1,186 @@
+﻿@{
+    ViewData["Title"] = "ThongTinLienHe";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1>Thông Tin Liên Hệ</h1>
+
+<div class="contact-info">
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3651338657874!2d106.69204877408859!3d10.859808157652129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529c17978287d%3A0xec48f5a17b7d5741!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBOZ3V54buFbiBU4bqldCBUaMOgbmggLSBDxqEgc-G7nyBxdeG6rW4gMTI!5e0!3m2!1svi!2s!4v1724116954810!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="details">
+            <h2>Cơ sở An Phú Đông – Quận 12</h2>
+            <p>331 Quốc lộ 1A, P. An Phú Đông, Q. 12, TP. HCM</p>
+            <p>ĐT: (028) 3855 4269</p>
+            <p>Email: <a href="mailto:ntt@ntt.edu.vn">ntt@ntt.edu.vn</a></p>
+            <p>Website: <a href="https://ntt.edu.vn/" target="_blank">www.ntt.edu.vn</a></p>
+        </div>
+    </div>
+
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.887304450307!2d106.69902497408712!3d10.743168159808222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f9fbcf06ed9%3A0xa310939e4a63e947!2zNDU4LzNGIMSQLiBOZ3V54buFbiBI4buvdSBUaOG7jSwgVMOibiBIxrBuZywgUXXhuq1uIDcsIEjhu5MgQ2jDrCBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1724116979497!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="details">
+            <h2>Cơ sở Nguyễn Hữu Thọ – Quận 7</h2>
+            <p>3F Nguyễn Hữu Thọ, P. Tân Hưng, Q.7, TP. HCM</p>
+            <p>ĐT: (028) 3955 5548</p>
+            <p>Email: <a href="mailto:ntt@ntt.edu.vn">ntt@ntt.edu.vn</a></p>
+            <p>Website: <a href="https://ntt.edu.vn/" target="_blank">www.ntt.edu.vn</a></p>
+        </div>
+    </div>
+
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6551179163225!2d106.70793557408737!3d10.761040759479242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f6f49eaaaab%3A0x2cf99b322c8ba1b2!2zMzAwYSDEkC4gTmd1eeG7hW4gVOG6pXQgVGjDoG5oLCBQaMaw4budbmcgMTMsIFF14bqtbiA0LCBI4buSIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1724117013437!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="details">
+            <h2>Cơ sở 300A – Quận 4</h2>
+            <p>300A – Nguyễn Tất Thành, Phường 13, Quận 4, TP. Hồ Chí Minh, Việt Nam</p>
+            <p>ĐT: (028) 3845 1889</p>
+            <p>Email: <a href="mailto:ntt@ntt.edu.vn">ntt@ntt.edu.vn</a></p>
+            <p>Website: <a href="https://ntt.edu.vn/" target="_blank">www.ntt.edu.vn</a></p>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .location iframe {
+            width: 50%;
+            height: 250px;
+            border: 0;
+            flex-shrink: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+    .details {
+        padding: 20px;
+        width: 50%;
+    }
+
+        .details h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #2980b9;
+        }
+
+        .details p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #34495e;
+        }
+
+        .details a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+            .details a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>

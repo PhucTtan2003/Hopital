@@ -1,0 +1,183 @@
+﻿@{
+    ViewData["Title"] = "Lịch Sử Bệnh Viện";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center">LỊCH SỬ BỆNH VIỆN</h1>
+
+    <p>
+        Từ ước mơ của các Thầy Cô của Trường Đại học TPHCM có được Bệnh viện của Trường - nơi các Thầy Cô vừa dạy học, vừa khám, chữa bệnh cho người dân như nhiều mô hình hiện đại của các trường đại học y khoa trên thế giới; Ban Giám hiệu, đặc biệt là hai người Thầy - GS TS BS. Trương Công Trung và GS TS BS. Nguyễn Đình Hối với tầm nhìn sâu rộng và sự quyết tâm đã cùng các Thầy Cô của Trường xây dựng cơ sở khám chữa bệnh theo mô hình kết hợp Trường – Viện đầu tiên tại Việt Nam.
+    </p>
+
+    <p>
+        Năm 1994, vượt qua khó khăn ban đầu về nhiều mặt cũng như được sự quan tâm, ủng hộ của Lãnh đạo Đảng, Nhà nước, Bộ Y tế và các ban ngành đoàn thể, Phòng khám Đa khoa có giường lưu thuộc Trường Đại học TPHCM đã ra đời, đặt nền móng đầu tiên cho Bệnh viện TPHCM lớn mạnh của hiện tại.
+    </p>
+
+    <p>
+        Đến năm 2000, Bệnh viện TPHCM được thành lập theo Quyết định số 3639/2000/QĐ-BYT ngày 18/10/2000 của Bộ trưởng Bộ Y tế, là bệnh viện bán công trực thuộc Trường Đại học TPHCM. Đây là mô hình Trường – Bệnh viện đầu tiên trong cả nước lúc bấy giờ; Bệnh viện hoạt động theo cơ chế tự hạch toán tài chính, không sử dụng ngân sách Nhà nước. Đây là dấu ấn lịch sử quan trọng trong quá trình phát triển của Bệnh viện, từ đây, chặng đường phát triển của Bệnh viện Đại học Y Dược TPHCM bước sang một giai đoạn mới.
+    </p>
+
+    <p>
+        Sau một thời gian hoạt động, Bệnh viện ngày càng có uy tín, số lượng người bệnh đến khám bệnh và điều trị tại Bệnh viện ngày càng đông, do đó đòi hỏi Bệnh viện phải mở rộng cơ sở vật chất để đáp ứng nhu cầu phát triển. Tháng 3/2006, Bệnh viện khởi công xây dựng tòa nhà 15 tầng tại số 215 Hồng Bàng, Phường 11, Quận 5 với tổng diện tích sàn là 47.168 m2. Năm 2013, tòa nhà bắt đầu đưa vào hoạt động. Từ đây, Bệnh viện TPHCM đã có cơ sở khang trang, trang thiết bị hiện đại.
+    </p>
+
+    <p>
+        Ngày 21/9/2010, Bộ Y tế đã ban hành Quyết định số 3446/QĐ-BYT về việc chuyển đổi loại hình hoạt động của Bệnh viện Đại học TPHCM từ bán công thành đơn vị hạch toán độc lập, trực thuộc Đại học TPHCM theo quy định của Nghị định số 69/2008/NĐ-CP ngày 30/5/2008 của Chính phủ về chính sách khuyến khích xã hội hóa đối với các hoạt động trong lĩnh vực giáo dục, dạy nghề, y tế, văn hóa, thể thao, môi trường, Bệnh viện Đại học TPHCM là đơn vị đầu tiên trong ngành y tế hoạt động theo mô hình này. Năm 2013, Bệnh viện Đại học TPHCM được xếp hạng hạng 1 theo Quyết định số 1360/QĐ-BYT ngày 24/4/2013 của Bộ Y tế.
+    </p>
+
+    <p>
+        Chặng đường 30 năm hình thành và phát triển, Bệnh viện Đại học TPHCM là minh chứng khẳng định cho sự thành công của mô hình tiên tiến kết hợp Trường và Bệnh viện. Bệnh viện Đại học TPHCM không sử dụng ngân sách nhà nước mà vẫn đạt hiệu quả cao trong khám chữa bệnh, đào tạo nguồn nhân lực có trình độ cao trong ngành y tế và nghiên cứu khoa học với những đề tài tầm cỡ, góp phần xứng đáng vào sự nghiệp chăm sóc và bảo vệ sức khỏe nhân dân. Niềm tin thương hiệu “Bệnh viện Đại học” trong cộng đồng ngày một lan tỏa rộng khắp trong và ngoài nước. Đến nay mô hình này đã được nhân rộng đối với nhiều trường đại học y dược trong cả nước.
+    </p>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <h2>1994</h2>
+            <img src="~/images/Introduce/LichSu_1.jpg" alt="1994 - Thành lập" class="timeline-img">
+            <p>Phòng khám 6 tầng tại giảng đường Bệnh viện TP.HCM được khánh thành.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2000</h2>
+            <img src="~/images/Introduce/LichSu_2.jpg" alt="2000 - Phát triển" class="timeline-img">
+            <p>Phòng khám phát triển thành Bệnh viện TP.HCM với 6 tầng.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2008</h2>
+            <img src="~/images/Introduce/LichSu_3.jpg" alt="2008 - Mở rộng" class="timeline-img">
+            <p>Bệnh viện tiến hành xây dựng tòa nhà 15 tầng.</p>
+        </div>
+        <div class="timeline-item">
+            <h2>2013</h2>
+            <img src="~/images/Introduce/LichSu_4.jpg" alt="2013 - Khánh thành" class="timeline-img">
+            <p>Tòa nhà mới chính thức đưa vào hoạt động.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 2em;
+        color: #004080;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.1em;
+        line-height: 1.8em;
+        color: #333;
+    }
+
+    .timeline {
+        margin-top: 40px;
+    }
+
+    .timeline-item {
+        margin-bottom: 40px;
+        border-left: 4px solid #004080;
+        padding-left: 20px;
+    }
+
+        .timeline-item h2 {
+            font-size: 1.5em;
+            color: #004080;
+            margin-bottom: 10px;
+        }
+
+    .timeline-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+
+    .timeline-item p {
+        font-size: 1em;
+        color: #333;
+    }
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>

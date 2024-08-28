@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Ban Lãnh Đạo";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center">BAN GIÁM ĐỐC</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_1.png" alt="PGS TS BS. Nguyễn Hoàng Bắc">
+                </div>
+            </div>
+            <h3>PGS TS BS. Nguyễn Hoàng Bắc</h3>
+            <p>Giám Đốc Bệnh viện</p>
+        </div>
+    </div>
+
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_2.png" alt="PGS TS BS. Nguyễn Minh Anh">
+                </div>
+            </div>
+            <h3>PGS TS BS. Nguyễn Minh Anh</h3>
+            <p>Phó Giám Đốc Bệnh viện</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_3.png" alt="PGS TS BS. Nguyễn Hoàng Định">
+                </div>
+            </div>
+            <h3>PGS TS BS. Nguyễn Hoàng Định</h3>
+            <p>Phó Giám Đốc Bệnh viện</p>
+        </div>
+    </div>
+
+    <h2 class="text-center mt-5">LÃNH ĐẠO CÁC PHÒNG CHỨC NĂNG</h2>
+    <div class="d-flex justify-content-center mt-4 flex-wrap-nowrap">
+        <div class="text-center mx-2">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_4.png" alt="BS CK2. Đoàn Thanh Tùng">
+                </div>
+            </div>
+            <h3>BS CK2. Đoàn Thanh Tùng</h3>
+            <p>Trưởng Phòng Kế Hoạch Tổng Hợp</p>
+        </div>
+        <div class="text-center mx-2">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_5.png" alt="ThS BS. Lê Quang Tấn Minh">
+                </div>
+            </div>
+            <h3>ThS BS. Lê Quang Tấn Minh</h3>
+            <p>Trưởng Phòng Tổ Chức Cán Bộ</p>
+        </div>
+        <div class="text-center mx-2">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_6.png" alt="ThS. Nguyễn Thị Hồng Vân">
+                </div>
+            </div>
+            <h3>ThS. Nguyễn Thị Hồng Vân</h3>
+            <p>Trưởng Phòng Điều Dưỡng</p>
+        </div>
+        <div class="text-center mx-2">
+            <div class="hexagon">
+                <div class="hexagon-inner">
+                    <img src="~/images/Introduce/BLD_7.png" alt="ThS BS. Nguyễn Đình Khánh">
+                </div>
+            </div>
+            <h3>ThS BS. Nguyễn Đình Khánh</h3>
+            <p>Trưởng Phòng Hành Chính Quản Trị</p>
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+        color: #004080;
+    }
+
+    .hexagon {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: #fff;
+        display: inline-block;
+        clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .hexagon-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        clip-path: inherit;
+    }
+
+        .hexagon-inner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+    .hexagon:hover {
+        transform: scale(1.05); 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    h3 {
+        font-size: 1em; 
+        color: #004080;
+        margin-top: 10px;
+        font-weight: 600;
+        text-transform: capitalize; 
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-size: 0.85em;
+        color: #00b5f1;
+        margin-top: 10px;
+        font-weight: 300;
+        text-transform: capitalize;
+        letter-spacing: 0.5px;
+        line-height: 1.4;
+    }
+
+    .flex-wrap-nowrap {
+        flex-wrap: nowrap;
+    }
+
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>

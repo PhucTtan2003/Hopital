@@ -1,0 +1,138 @@
+﻿@{
+    ViewData["Title"] = "Tầm nhìn - Sứ mệnh - Giá trị cốt lõi";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="~/images/bv4.jpg" alt="Logo" style="height: 60px;"> <!-- Đặt đường dẫn tới logo của bạn -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" asp-controller="Introduce" asp-action="GioiThieu">Giới Thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="TamNhinSuMechCotLoi">Tầm Nhìn - Sứ Mệnh - Giá Trị Cốt Lõi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="LichSu">Lịch Sử</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="BanLanhDao">Ban Lãnh Đạo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThanhTuu">Thành Tựu và Chất Lượng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="ThongTinLienHe">Thông Tin Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center">TẦM NHÌN - SỨ MỆNH - GIÁ TRỊ CỐT LÕI</h1>
+
+    <h2 class="subheading">TẦM NHÌN</h2>
+    <p>Trở thành bệnh viện đại học dẫn đầu Việt Nam và đạt chuẩn quốc tế.</p>
+
+    <h2 class="subheading">SỨ MỆNH</h2>
+    <p>Mang đến giải pháp chăm sóc sức khỏe tối ưu từ sự tích hợp giữa điều trị, nghiên cứu và đào tạo.</p>
+
+    <h2 class="subheading">GIÁ TRỊ CỐT LÕI</h2>
+    <ul>
+        <li><strong>Tiên phong</strong> trong điều trị người bệnh, nghiên cứu khoa học, đào tạo và quản trị.</li>
+        <li><strong>Thấu hiểu</strong> nỗi đau về thể xác lẫn tinh thần của người bệnh để đưa ra những giải pháp điều trị tối ưu.</li>
+        <li><strong>Chuẩn mực</strong> của người thầy giáo – thầy thuốc, luôn là tấm gương sáng để thế hệ tiếp nối noi theo.</li>
+        <li><strong>An toàn</strong> cho người bệnh và nhân viên y tế.</li>
+    </ul>
+</div>
+
+<!-- CSS -->
+<style>
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 2em;
+        color: #004080;
+    }
+
+    .subheading {
+        font-size: 1.5em;
+        color: #004080;
+        margin-top: 20px;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 1.1em;
+        line-height: 1.8em;
+        color: #333;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #333;
+        }
+</style>
+
+<!--Css Thanh menu-->
+<style>
+    .navbar {
+        background-color: #fff; /* Màu nền cho thanh menu */
+        border-bottom: 2px solid #004080; /* Đường kẻ dưới */
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Chiều cao logo */
+    }
+
+    .navbar-nav .nav-link {
+        font-weight: bold;
+        color: #004080;
+        margin-left: 20px;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #0066cc; /* Màu khi hover */
+        }
+
+    .navbar-nav .active {
+        color: #0066cc;
+    }
+
+    .bi-search {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu {
+        background-color: #fff; /* Màu nền cho menu dropdown */
+        border: 1px solid #ccc; /* Viền xung quanh dropdown */
+    }
+
+        .dropdown-menu .dropdown-item {
+            color: #004080; /* Màu chữ cho item trong dropdown */
+        }
+
+            .dropdown-menu .dropdown-item:hover {
+                background-color: #f1f1f1; /* Màu nền khi hover */
+            }
+</style>
