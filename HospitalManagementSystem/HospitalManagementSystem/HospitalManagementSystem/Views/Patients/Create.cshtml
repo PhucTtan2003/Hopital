@@ -23,13 +23,18 @@
                 </a>
                 <div class="collapse navbar-collapse justify-content-center">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="https://localhost:44354/">Trang chủ</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Giới thiệu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Chuyên khoa</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://localhost:7226/patients/create">Tạo hồ sơ khám Bênh</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Introduce" asp-action="GioiThieu">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Doctor" asp-action="Index">Chuyên khoa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Patients" asp-action="Create">Tạo hồ sơ khám bệnh</a>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#">Thành tựu</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://localhost:7226/user/login">Đăng nhập</a></li>
                     </ul>
                 </div>
             </div>

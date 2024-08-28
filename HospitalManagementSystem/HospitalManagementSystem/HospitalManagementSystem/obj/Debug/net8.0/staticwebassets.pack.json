@@ -241,6 +241,14 @@
       "PackagePath": "staticwebassets\\images\\R.png"
     },
     {
+      "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\nguyenminhoang.jpg",
+      "PackagePath": "staticwebassets\\images\\SearchDoctor\\nguyenminhoang.jpg"
+    },
+    {
+      "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\tanhuynh.jpg",
+      "PackagePath": "staticwebassets\\images\\SearchDoctor\\tanhuynh.jpg"
+    },
+    {
       "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\bv1.jpg",
       "PackagePath": "staticwebassets\\images\\bv1.jpg"
     },
