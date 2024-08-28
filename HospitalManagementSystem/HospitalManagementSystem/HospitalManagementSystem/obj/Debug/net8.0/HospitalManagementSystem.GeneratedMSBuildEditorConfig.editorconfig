@@ -110,6 +110,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWNlXFRob25nVGluTGllbkhlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Medication/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvblxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Medication/Pharmacity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvblxQaGFybWFjaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Medication/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvblxUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/Medication/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvblxWaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Education/MVC/HospitalManagementSystem/HospitalManagementSystem/HospitalManagementSystem/Views/PatientsKhach/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudHNLaGFjaFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

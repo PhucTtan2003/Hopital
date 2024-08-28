@@ -241,6 +241,10 @@
       "PackagePath": "staticwebassets\\images\\R.png"
     },
     {
+      "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\QRTeam.jpg",
+      "PackagePath": "staticwebassets\\images\\SearchDoctor\\QRTeam.jpg"
+    },
+    {
       "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\nguyenminhoang.jpg",
       "PackagePath": "staticwebassets\\images\\SearchDoctor\\nguyenminhoang.jpg"
     },

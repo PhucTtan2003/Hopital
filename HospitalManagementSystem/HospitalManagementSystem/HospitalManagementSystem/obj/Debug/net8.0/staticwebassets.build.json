@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MezryiFhtCmSW7pk1kUMM+f3p1eo0BHJgRt8eJa4GFQ=",
+  "Hash": "Rti1RlKUUJw3v8enW2LsqpgbRuonHT0uv4Aq2UpGpjQ=",
   "Source": "HospitalManagementSystem",
   "BasePath": "_content/HospitalManagementSystem",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\SearchDoctor\\nguyenminhoang.jpg"
+    },
+    {
+      "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\QRTeam.jpg",
+      "SourceId": "HospitalManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementSystem",
+      "RelativePath": "images/SearchDoctor/QRTeam.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SearchDoctor\\QRTeam.jpg"
     },
     {
       "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\SearchDoctor\\tanhuynh.jpg",
