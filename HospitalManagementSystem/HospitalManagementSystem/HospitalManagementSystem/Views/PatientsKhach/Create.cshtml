@@ -1,0 +1,68 @@
+﻿@model HospitalManagementSystem.Data.Patient
+
+@{
+    ViewData["Title"] = "Tạo Mới Hồ Sơ";
+}
+
+<div style="max-width: 600px; margin: 0 auto; padding: 30px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+    <h1 style="text-align: center; color: #007bff; font-weight: bold; margin-bottom: 20px;">Tạo Mới Hồ Sơ</h1>
+
+    <hr />
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger" style="margin-bottom: 20px;"></div>
+
+        <div class="form-group">
+            <label asp-for="FirstName" class="control-label" style="font-weight: bold;">Họ (có dấu)*</label>
+            <input asp-for="FirstName" class="form-control" placeholder="Ví dụ: Nguyễn Văn Bảo" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label" style="font-weight: bold;">Tên (có dấu)*</label>
+            <input asp-for="LastName" class="form-control" placeholder="Ví dụ: Nguyễn Văn Bảo" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DateOfBirth" class="control-label" style="font-weight: bold;">Ngày tháng năm sinh*</label>
+            <input asp-for="DateOfBirth" class="form-control" type="date" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Phone" class="control-label" style="font-weight: bold;">Số điện thoại*</label>
+            <input asp-for="Phone" class="form-control" placeholder="Nhập số điện thoại" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Gender" class="control-label" style="font-weight: bold;">Giới tính*</label>
+            <select asp-for="Gender" class="form-control" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="">Chọn giới tính</option>
+                <option value="Male">Nam</option>
+                <option value="Female">Nữ</option>
+            </select>
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="control-label" style="font-weight: bold;">Địa chỉ Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Nhập địa chỉ email để nhận phiếu khám" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="AddressPatients" class="control-label" style="font-weight: bold;">Địa chỉ*</label>
+            <input asp-for="AddressPatients" class="form-control" placeholder="Nhập địa chỉ" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+            <span asp-validation-for="AddressPatients" class="text-danger"></span>
+        </div>
+
+        <div class="form-group text-right" style="margin-top: 20px;">
+            <input type="submit" value="Tạo mới" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;" />
+        </div>
+    </form>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a asp-action="Index" style="text-decoration: none; color: #007bff;">Quay lại danh sách</a>
+    </div>
+</div>
