@@ -1,0 +1,47 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.TimeSlot>
+
+@{
+    ViewData["Title"] = "Chọn Khung Giờ Khám";
+}
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #007bff; margin-bottom: 20px;">Chọn Khung Giờ Khám</h2>
+
+    @if (!Model.Any())
+    {
+        <p style="text-align: center; color: red;">Không có khung giờ nào có sẵn cho bác sĩ này.</p>
+    }
+    else
+    {
+        <form asp-action="Index" asp-controller="Summary" method="post">
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="background-color: #007bff; color: white;">
+                        <th style="padding: 10px; text-align: left;">Ngày</th>
+                        <th style="padding: 10px; text-align: left;">Giờ</th>
+                        <th style="padding: 10px; text-align: center;">Chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var slot in Model)
+                    {
+                        <tr style="border-bottom: 1px solid #ddd;">
+                            <td style="padding: 10px;">@slot.Date.ToShortDateString()</td>
+                            <td style="padding: 10px;">@slot.Time</td>
+                            <td style="padding: 10px; text-align: center;">
+                                <input type="radio" name="TimeSlotID" value="@slot.TimeSlotId" required style="transform: scale(1.5); cursor: pointer;" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Tiếp Theo</button>
+            </div>
+        </form>
+    }
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a asp-action="SelectDoctor" asp-route-specialty="@ViewBag.Specialty" style="text-decoration: none; color: #007bff;">Quay lại chọn bác sĩ</a>
+    </div>
+</div>

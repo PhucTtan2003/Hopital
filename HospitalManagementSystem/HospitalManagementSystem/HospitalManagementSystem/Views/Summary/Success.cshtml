@@ -1,0 +1,52 @@
+﻿@model List<HospitalManagementSystem.Data.Appointment>
+
+<h2 style="text-align: center;">Chi tiết cuộc hẹn</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    @foreach (var appointment in Model)
+    {
+        <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e1e1e1; border-radius: 10px; font-family: Arial, sans-serif; background-color: #f9f9f9; margin-bottom: 20px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <!-- Placeholder for QR code -->
+                <img src="~/images/QRTeam.jpg" alt="QR Code" style="width: 150px; height: 150px; margin-bottom: 10px;">
+                <p style="color: green;"><i class="fas fa-check-circle"></i> Đã đặt lịch</p>
+            </div>
+
+            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
+                <p><strong>Mã phiếu khám:</strong> @appointment.AppointmentId</p>
+                <p><strong>Ngày khám:</strong> @appointment.TimeSlot.Date.ToShortDateString()</p>
+                <p><strong>Giờ khám dự kiến:</strong> <span style="color: #00b300;">@appointment.TimeSlot.Time (Buổi @((appointment.TimeSlot.Time.Contains("AM") ? "sáng" : "chiều")))</span></p>
+            </div>
+            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
+                <h4 style="margin-bottom: 5px;">Bệnh nhân</h4>
+                <p><strong>Họ và tên:</strong> @appointment.Patient.FirstName @appointment.Patient.LastName</p>
+                <p><strong>Email:</strong> @appointment.Patient.Email</p>
+            </div>
+
+            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
+                <h4 style="margin-bottom: 5px;">Thông tin bác sĩ</h4>
+                <p><strong>Bác sĩ:</strong> @appointment.Doctor.FullName</p>
+                <p><strong>Chuyên khoa:</strong> @appointment.Doctor.Specialty</p>
+            </div>
+
+            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
+                <h4 style="margin-bottom: 5px;">Phí khám</h4>
+                <p>@appointment.Fee.ToString("C0") VNĐ</p>
+            </div>
+
+            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
+                <h4 style="margin-bottom: 5px;">Ghi chú</h4>
+                <p>@appointment.Notes</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button onclick="window.print()" style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px;">In Phiếu Khám</button>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>Không tìm thấy thông tin cuộc hẹn.</p>
+}

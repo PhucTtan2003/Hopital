@@ -1,0 +1,41 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.Doctor>
+
+@{
+    ViewData["Title"] = "Chọn Bác Sĩ";
+}
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #007bff; margin-bottom: 20px;">Chọn Bác Sĩ</h2>
+
+    @if (!Model.Any())
+    {
+        <p style="text-align: center; color: red;">Không có bác sĩ nào cho chuyên khoa này.</p>
+    }
+    else
+    {
+        <table class="table" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: #007bff; color: white;">
+                    <th style="padding: 10px; text-align: left;">Tên Bác Sĩ</th>
+                    <th style="padding: 10px; text-align: left;">Chuyên Khoa</th>
+                    <th style="padding: 10px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var doctor in Model)
+                {
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 10px;">@doctor.FullName</td>
+                        <td style="padding: 10px;">@doctor.Specialty</td>
+                        <td style="padding: 10px; text-align: center;">
+                            <a asp-action="SelectTimeSlot" asp-route-doctorId="@doctor.DoctorId" asp-route-patientId="@ViewBag.PatientID" class="btn" style="background-color: #28a745; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none;">Chọn Giờ Khám</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div style="text-align: center; margin-top: 20px;">
+            <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Next</button>
+        </div>
+    }
+</div>

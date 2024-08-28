@@ -1,0 +1,56 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.Patient>
+
+@{
+    ViewData["Title"] = "Chọn Hồ Sơ Bệnh Nhân";
+}
+
+<h1>Chọn Hồ Sơ Bệnh Nhân</h1>
+<div class="profile-list">
+    @foreach (var item in Model)
+    {
+        <div class="profile-item">
+            <div class="profile-header">
+                <h4>@item.FirstName @item.LastName</h4>
+                <p>Ngày sinh: @item.DateOfBirth?.ToString("dd/MM/yyyy")</p>
+                <p>Số điện thoại: @item.Phone</p>
+            </div>
+
+            <div class="profile-actions">
+                <a asp-action="Continue" asp-route-id="@item.PatientId" class="btn btn-primary">Tiếp Tục</a>
+                <a asp-action="Edit" asp-route-id="@item.PatientId" class="btn btn-secondary">Sửa</a>
+                <a asp-action="Delete" asp-route-id="@item.PatientId" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa hồ sơ này?');">Xóa</a>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <style>
+        .profile-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+
+        .profile-header h4 {
+            margin-top: 0;
+        }
+
+        .profile-actions {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .profile-actions .btn {
+                margin-right: 5px;
+            }
+    </style>
+}

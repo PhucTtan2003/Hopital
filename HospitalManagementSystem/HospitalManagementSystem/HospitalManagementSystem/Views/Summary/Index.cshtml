@@ -1,0 +1,40 @@
+﻿@model HospitalManagementSystem.Models.Summary
+
+<div style="max-width: 600px; margin: 0 auto; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; background-color: #ffffff;">
+    <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Xác Nhận Cuộc Hẹn</h2>
+
+    <form method="post" asp-action="Confirm">
+        <div style="margin-bottom: 20px;">
+            <h3 style="color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Thông Tin Bệnh Nhân</h3>
+            <p><strong>Tên:</strong> @Model.Patient.FirstName @Model.Patient.LastName</p>
+            <p><strong>Email:</strong> @Model.Patient.Email</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Thông Tin Bác Sĩ</h3>
+            <p><strong>Bác sĩ:</strong> @Model.Doctor.FullName</p>
+            <p><strong>Chuyên khoa:</strong> @Model.Specialty.Specialty</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Thời Gian Cuộc Hẹn</h3>
+            <p><strong>Ngày:</strong> @Model.TimeSlot.Date.ToShortDateString()</p>
+            <p><strong>Giờ:</strong> @Model.TimeSlot.Time</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Phí Khám</h3>
+            <p>@Model.Fee.ToString("C0") VNĐ</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Ghi Chú</h3>
+            <textarea asp-for="Notes" class="form-control" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea>
+            <span asp-validation-for="Notes" class="text-danger"></span>
+        </div>
+
+        <div style="text-align: center;">
+            <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Xác Nhận Cuộc Hẹn</button>
+        </div>
+    </form>
+</div>
