@@ -376,12 +376,12 @@ INSERT INTO MedicalRecords (PatientID, DoctorID, MedicalDate, Diagnosis, Treatme
 -- Thêm dữ liệu mẫu vào bảng Medications
 INSERT INTO Medications (MedicationName,MedicationImage,FeeMedication, StatusMedication, DescriptionMedications, Dosage) VALUES 
 ('Aspirin','aspirin.jpg','100000',N'Còn hàng', N'Giảm đau', '500mg'),
-('Metformin','metformin','150000',N'Còn hàng', N'Kiểm soát đường huyết', '1000mg'),
+('Metformin','metformin.jfif','150000',N'Còn hàng', N'Kiểm soát đường huyết', '1000mg'),
 ('Paradol','paradol.jpg','50000',N'Còn hàng', N'Sốt,Giảm đau', '200mg'),
-('Acetaminophen',' acetaminophen.jpg ','250000',N'Còn hàng', N'Giảm đau', '1000mg'),
+('Acetaminophen','acetaminophen.jpg','250000',N'Còn hàng', N'Giảm đau', '1000mg'),
 ('Floctafenin','floctafenin.jpg','100000',N'Đã hết hàng', N'Giảm đau', '500mg'),
 ('Nefopam','nefopam.jpg','150000',N'Đã hết hàng', N'Kiểm soát đường huyết', '3000mg'),
-('Paracetamol',' paracetamol.jpg ','250000',N'Còn hàng', N'Giảm đau', '1000mg'),
+('Paracetamol','paracetamol.jpg ','250000',N'Còn hàng', N'Giảm đau', '1000mg'),
 ('Codein','Codein.jpg','100000',N'Đã hết hàng', N'Giảm đau', '500mg');
 
 -- Thêm dữ liệu mẫu vào bảng Prescriptions

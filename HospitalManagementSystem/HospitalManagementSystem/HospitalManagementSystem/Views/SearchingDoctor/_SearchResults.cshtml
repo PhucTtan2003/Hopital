@@ -20,6 +20,9 @@
                     }
 
                     <a href="@Url.Action("Detail", "SearchingDoctor", new { id = doctor.DoctorId })" class="btn btn-primary">Xem chi tiết</a>
+                    
+                    <!-- Thêm nút Đặt Khám -->
+                    <a href="@Url.Action("Index", "PatientsKhach", new { doctorId = doctor.DoctorId })" class="btn btn-secondary">Đặt Khám</a>
                 </div>
             </div>
         }
@@ -29,6 +32,7 @@ else
 {
     <p>Không tìm thấy bác sĩ nào phù hợp.</p>
 }
+
 <style>
     html {
     font-size: 14px;
