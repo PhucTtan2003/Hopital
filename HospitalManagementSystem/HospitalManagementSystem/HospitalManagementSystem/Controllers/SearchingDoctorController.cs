@@ -26,30 +26,27 @@ namespace SearchingDoctorController.Controllers
             {
                 // Lấy dữ liệu từ bảng Doctors, tạo danh sách dropdown với các chuyên khoa
                 Specialties = _context.Doctors
-                    .GroupBy(d => d.Specialty)
-                    .Select(g => new SelectListItem
+                    .Select(s => new SelectListItem
                     {
-                        Value = g.Key,
-                        Text = g.Key
-                    }).ToList(),
+                        Value = s.Specialty,
+                        Text = s.Specialty
+                    }).Distinct().ToList(),
 
                 // Lấy dữ liệu từ bảng TimeSlots để tạo danh sách dropdown với các ngày có lịch khám
                 Dates = _context.TimeSlots
-                    .GroupBy(ts => ts.Date)
-                    .Select(g => new SelectListItem
+                    .Select(ts => new SelectListItem
                     {
-                        Value = g.Key.ToString("yyyy-MM-dd"),  // Chuyển đổi DateTime thành chuỗi
-                        Text = g.Key.ToString("dd/MM/yyyy")
-                    }).ToList(),
+                        Value = ts.Date.ToString("yyyy-MM-dd"),  // Chuyển đổi DateTime thành chuỗi
+                        Text = ts.Date.ToString("dd/MM/yyyy")
+                    }).Distinct().ToList(),
 
                 // Lấy dữ liệu từ bảng Doctors để tạo danh sách dropdown với học vị (Position)
                 Positions = _context.Doctors
-                    .GroupBy(d => d.Position)
-                    .Select(g => new SelectListItem
+                    .Select(p => new SelectListItem
                     {
-                        Value = g.Key,
-                        Text = g.Key
-                    }).ToList()
+                        Value = p.Position,
+                        Text = p.Position
+                    }).Distinct().ToList()
             };
 
             // Trả về View với ViewModel đã được khởi tạo
@@ -61,61 +58,36 @@ namespace SearchingDoctorController.Controllers
         public IActionResult Search(DoctorSearchViewModel model)
         {
             // Khởi tạo truy vấn với bảng Doctors
-            var doctorsQuery = _context.Doctors
+            var doctors = _context.Doctors
                 .Include(d => d.TimeSlots) // Bao gồm cả TimeSlots để tìm kiếm
                 .AsQueryable();
 
             // Lọc theo chuyên khoa nếu người dùng chọn chuyên khoa
             if (!string.IsNullOrEmpty(model.SelectedSpecialty))
             {
-                doctorsQuery = doctorsQuery.Where(d => d.Specialty == model.SelectedSpecialty);
+                doctors = doctors.Where(d => d.Specialty == model.SelectedSpecialty);
             }
 
             // Lọc theo ngày khám nếu người dùng chọn ngày khám
             if (model.SearchDate.HasValue)
             {
-                doctorsQuery = doctorsQuery.Where(d => d.TimeSlots.Any(ts => ts.Date.Date == model.SearchDate.Value.Date));
+                doctors = doctors.Where(d => d.TimeSlots.Any(ts => ts.Date.Date == model.SearchDate.Value.Date));
             }
 
             // Lọc theo học vị (Position) nếu người dùng chọn
             if (!string.IsNullOrEmpty(model.SelectedPosition))
             {
-                doctorsQuery = doctorsQuery.Where(d => d.Position == model.SelectedPosition);
+                doctors = doctors.Where(d => d.Position == model.SelectedPosition);
             }
 
             // Lọc theo tên bác sĩ nếu người dùng nhập tên bác sĩ
             if (!string.IsNullOrEmpty(model.DoctorName))
             {
-                doctorsQuery = doctorsQuery.Where(d => d.FullName.Contains(model.DoctorName));
+                doctors = doctors.Where(d => d.FullName.Contains(model.DoctorName));
             }
 
             // Lưu kết quả tìm kiếm vào ViewModel
-            model.Doctors = doctorsQuery.ToList();
-
-            // Lấy lại danh sách dropdown để tránh lỗi null reference trong view
-            model.Specialties = _context.Doctors
-                .GroupBy(d => d.Specialty)
-                .Select(g => new SelectListItem
-                {
-                    Value = g.Key,
-                    Text = g.Key
-                }).ToList();
-
-            model.Dates = _context.TimeSlots
-                .GroupBy(ts => ts.Date)
-                .Select(g => new SelectListItem
-                {
-                    Value = g.Key.ToString("yyyy-MM-dd"),
-                    Text = g.Key.ToString("dd/MM/yyyy")
-                }).ToList();
-
-            model.Positions = _context.Doctors
-                .GroupBy(d => d.Position)
-                .Select(g => new SelectListItem
-                {
-                    Value = g.Key,
-                    Text = g.Key
-                }).ToList();
+            model.Doctors = doctors.ToList();
 
             // Nếu yêu cầu là AJAX, trả về PartialView với kết quả tìm kiếm
             if (Request.IsAjaxRequest())
@@ -132,10 +104,7 @@ namespace SearchingDoctorController.Controllers
         public IActionResult Detail(int id)
         {
             // Tìm bác sĩ theo Id
-            var doctor = _context.Doctors
-                .Include(d => d.TimeSlots) // Bao gồm cả TimeSlots để hiển thị chi tiết
-                .FirstOrDefault(d => d.DoctorId == id);
-
+            var doctor = _context.Doctors.FirstOrDefault(d => d.DoctorId == id);
             if (doctor == null)
             {
                 return NotFound(); // Trả về lỗi 404 nếu không tìm thấy bác sĩ

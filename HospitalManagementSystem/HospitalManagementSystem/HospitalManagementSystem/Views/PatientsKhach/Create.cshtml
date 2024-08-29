@@ -4,6 +4,105 @@
     ViewData["Title"] = "Tạo Mới Hồ Sơ";
 }
 
+
+<style>
+    .navbar {
+        background-color: #0c2340;
+        padding: 10px 0;
+    }
+
+        .navbar .navbar-brand img {
+            width: 100px;
+            height: auto;
+            border-radius: 15px;
+        }
+
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            .navbar-nav .nav-link:hover {
+                text-decoration: underline;
+            }
+
+    .footer {
+        background-color: #0c2340;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .footer h3 {
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+    .rounded-image {
+        width: 550px;
+        height: 330px;
+        border-radius: 15px;
+    }
+
+    .blur-background {
+        background-color: white;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        opacity: 0.9;
+        border-radius: 15px;
+        padding: 20px;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+            <img src="~/images/bv4.jpg" alt="Logo" class="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Home")">Trang chủ</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Introduce" asp-action="GioiThieu">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Doctor" asp-action="Index">Chuyên khoa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="PatientsKhach" asp-action="Create">Tạo hồ sơ khám bệnh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Medication" asp-action="Pharmacity">Đặt thuốc online</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<br>
+<br>
+
 <div style="max-width: 600px; margin: 0 auto; padding: 30px; background-color: #f9f9f9; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <h1 style="text-align: center; color: #007bff; font-weight: bold; margin-bottom: 20px;">Tạo Mới Hồ Sơ</h1>
 
@@ -66,3 +165,18 @@
         <a asp-action="Index" style="text-decoration: none; color: #007bff;">Quay lại danh sách</a>
     </div>
 </div>
+<br>
+<br>
+
+<footer class="footer">
+    <div>
+        <h3>TP. Hà Nội</h3>
+        <p><strong>Địa chỉ:</strong> 458/3F Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP.HCM</p>
+        <p><strong>Số điện thoại:</strong> 19002039</p>
+    </div>
+    <div>
+        <h3>TP. Hồ Chí Minh</h3>
+        <p><strong>Địa chỉ:</strong> 300A – Nguyễn Tất Thành, Phường 13, Quận 4, TP. Hồ Chí Minh, Việt Nam</p>
+        <p><strong>Số điện thoại:</strong> 1900 2039</p>
+    </div>
+</footer>

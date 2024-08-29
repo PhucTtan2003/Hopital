@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git_Hub\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj": {}
+    "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj": {}
   },
   "projects": {
-    "D:\\Git_Hub\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj": {
+    "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git_Hub\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+        "projectUniqueName": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
         "projectName": "HospitalManagementSystem",
-        "projectPath": "D:\\Git_Hub\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\TAM\\.nuget\\packages\\",
-        "outputPath": "D:\\Git_Hub\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\",
+        "projectPath": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\hophu\\.nuget\\packages\\",
+        "outputPath": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hophu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -74,28 +74,15 @@ namespace Booklich.Controllers
         {
             try
             {
-                // Lấy ghi chú từ model gửi lên từ view
                 var note = summary.Notes;
-
-                // Lấy thông tin summary đã được lưu trong TempData
                 var summaryJson = TempData["summary"] as string;
+                summary = JsonConvert.DeserializeObject<Summary>(summaryJson);
 
-                // Nếu không lấy được summary từ TempData, chuyển hướng đến trang lỗi
-                if (string.IsNullOrEmpty(summaryJson))
+                if (summary == null)
                 {
                     return RedirectToAction("Error", new { message = "Unable to retrieve summary information." });
                 }
 
-                // Deserialize JSON thành đối tượng Summary
-                summary = JsonConvert.DeserializeObject<Summary>(summaryJson);
-
-                // Kiểm tra các thông tin cần thiết có đầy đủ không
-                if (summary?.Patient == null || summary.Doctor == null || summary.TimeSlot == null)
-                {
-                    return RedirectToAction("Error", new { message = "Incomplete summary information." });
-                }
-
-                // Tạo đối tượng Appointment mới
                 var appointment = new Appointment
                 {
                     PatientId = summary.Patient.PatientId,
@@ -105,20 +92,17 @@ namespace Booklich.Controllers
                     Notes = note
                 };
 
-                // Thêm appointment vào cơ sở dữ liệu
                 _context.Appointments.Add(appointment);
                 _context.SaveChanges();
 
-                // Lưu lại AppointmentId trong TempData để sử dụng sau
                 TempData["AppointmentId"] = appointment.AppointmentId;
 
-                // Chuyển hướng đến trang thành công
+                // Redirect to the success page
                 return RedirectToAction("Success");
             }
             catch (Exception ex)
             {
-                // Log lỗi nếu cần (ví dụ: dùng Serilog, NLog)
-                // Chuyển hướng đến trang lỗi kèm theo thông báo
+                // Log the exception and redirect to error page
                 return RedirectToAction("Error", new { message = "An error occurred while confirming the appointment. Please try again later." });
             }
         }

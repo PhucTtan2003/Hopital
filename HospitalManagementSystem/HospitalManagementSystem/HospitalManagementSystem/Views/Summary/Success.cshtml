@@ -14,16 +14,10 @@
             </div>
 
             <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
-                <h4 style="margin-bottom: 5px;">Số Khám</h4>
-                <p><strong>Số thứ tự</strong> @appointment.AppointmentId</p>
-            </div>
-
-            <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
                 <p><strong>Mã phiếu khám:</strong> @appointment.AppointmentId</p>
                 <p><strong>Ngày khám:</strong> @appointment.TimeSlot.Date.ToShortDateString()</p>
                 <p><strong>Giờ khám dự kiến:</strong> <span style="color: #00b300;">@appointment.TimeSlot.Time (Buổi @((appointment.TimeSlot.Time.Contains("AM") ? "sáng" : "chiều")))</span></p>
             </div>
-
             <div style="border-top: 1px solid #e1e1e1; padding-top: 10px;">
                 <h4 style="margin-bottom: 5px;">Bệnh nhân</h4>
                 <p><strong>Họ và tên:</strong> @appointment.Patient.FirstName @appointment.Patient.LastName</p>

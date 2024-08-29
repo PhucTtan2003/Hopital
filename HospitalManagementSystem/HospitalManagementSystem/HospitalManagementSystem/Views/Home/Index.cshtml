@@ -211,8 +211,12 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="PatientsKhach" asp-action="Create">Tạo hồ sơ khám bệnh</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Thành tựu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Tin tức</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Medication" asp-action="Pharmacity">Đặt thuốc online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="SearchingDoctor" asp-action="Search">Tìm Bác Sĩ</a>
+                        </li>
 
                         @if (userRoles == "admin")
                         {
