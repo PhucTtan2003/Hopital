@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webbv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f5a3cac0495e10bba48d6e407bc6a003ec63ae8")]
 [assembly: System.Reflection.AssemblyProductAttribute("webbv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webbv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
