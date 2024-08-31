@@ -14,10 +14,7 @@ namespace HospitalManagementSystem.Controllers
         {
             _context = context;
             //Check quyen chi admin vao 
-            if (HttpContext.Session.GetString("IsAdmin").ToString() != "admin")
-            {
-                RedirectToAction("Index/Home");
-            }
+           
         }
 
         // GET: Patients

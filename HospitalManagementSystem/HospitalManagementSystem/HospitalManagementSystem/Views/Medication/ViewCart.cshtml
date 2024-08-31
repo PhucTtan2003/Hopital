@@ -39,7 +39,9 @@
         <p><strong>Tổng số tiền:</strong> @ViewBag.TotalAmount.ToString("C")</p>
     </div>
 
-    <a href="@Url.Action("Checkout", "Medication")" class="btn btn-primary">Thanh toán</a>
+    <form asp-action="ProcessPayment" method="post">
+        <button type="submit" class="btn btn-primary">Thanh toán</button>
+    </form>
 }
 else
 {
