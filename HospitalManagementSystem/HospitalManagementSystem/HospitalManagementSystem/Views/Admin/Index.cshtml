@@ -1,7 +1,7 @@
 ﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 
 @{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = "Index";
     var username = HttpContextAccessor?.HttpContext?.Session.GetString("Username");
     var welcomeMessage = TempData["WelcomeMessage"] as string;
 }
@@ -114,8 +114,8 @@
         }
 
             .sidebar a i {
-                margin-right: 10px; /* Khoảng cách giữa icon và text */
-                font-size: 20px; /* Điều chỉnh kích thước icon nếu cần */
+                margin-right: 10px;
+                font-size: 20px;
             }
 
         .footer {
@@ -157,13 +157,12 @@
         <div class="navbar-brand text-center">
             <img src="~/images/Avengers HOSPITAL.png" alt="Logo" class="img-fluid" style="width: 100px;">
         </div>
-        <a href="#"><i class="bi bi-house-door"></i> Tổng quan</a>
+        <a class="nav-link bi bi-person-badge" asp-controller="Admin" asp-action="DashBoard">Biểu đồ tạo hồ sơ</a>
         <a class="nav-link bi bi-person-badge" asp-controller="Patients" asp-action="Index">Quản lý hồ sơ đã đặt khám</a>
         <a href="#"><i class="bi bi-person-badge"></i> Quản lý hồ sơ Bác Sĩ</a>
         <a href="#"><i class="bi bi-envelope"></i> Form liên hệ</a>
         <a href="#"><i class="bi bi-bar-chart"></i> Báo cáo thống kê</a>
     </div>
-
 
     <div class="main-content">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -193,17 +192,11 @@
             </div>
         </nav>
 
-        <!-- Trang Tổng Quan trong đó có sơ đồ -->
-        <div class="chart-container">
-            <h3>Số lượng hồ sơ của bệnh nhân</h3>
-            <canvas id="sourceChart"></canvas>
+        <div class="content-header">
+            <h1>Index</h1>
         </div>
 
-        <div class="chart-container">
-            <h3>Số lượng lịch đã đặt khám</h3>
-            <canvas id="callChart"></canvas>
-        </div>
+
     </div>
 </body>
 </html>
-

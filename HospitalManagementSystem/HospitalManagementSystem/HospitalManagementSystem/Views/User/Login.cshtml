@@ -140,9 +140,14 @@
             </div>
             <div class="form-group">
                 <label asp-for="Roles" class="control-label">Role</label>
-                <input asp-for="Roles" class="form-control" placeholder="Enter 'admin' or 'khach'" />
+                <select asp-for="Roles" class="form-control">
+                    <option value="">-- Select Role --</option>
+                    <option value="admin">Admin</option>
+                    <option value="khach">Khach</option>
+                </select>
                 <span asp-validation-for="Roles" class="text-danger"></span>
             </div>
+
             <button type="submit" class="btn-primary">Login</button>
         </form>
         <div class="extra-options">

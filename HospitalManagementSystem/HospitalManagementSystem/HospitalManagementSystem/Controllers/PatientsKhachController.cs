@@ -39,8 +39,16 @@ namespace HospitalManagementSystem.Controllers
         // GET: Patient/Index
         public ActionResult Index()
         {
-            var profiles = _context.Patients.ToList();
-            return View(profiles);
+            var uname = HttpContext.Session.GetString("Username");
+            var Id = HttpContext.Session.GetString("AccountId");
+            var role = HttpContext.Session.GetString("Roles");
+            if(role == "khach")
+            {
+                var profiles = _context.Patients.Where(u => u.AccountId.ToString() == Id).ToList();
+                return View(profiles);
+            }
+            
+            return View();
         }
         public ActionResult Continue(int id, Patient patient)
         {

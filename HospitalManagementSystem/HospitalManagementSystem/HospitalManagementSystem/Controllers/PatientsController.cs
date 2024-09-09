@@ -20,8 +20,11 @@ namespace HospitalManagementSystem.Controllers
         // GET: Patients
         public async Task<IActionResult> Index()
         {
-            var patients = await _context.Patients.ToListAsync();
-            return View(patients);
+            var appointment = await _context.Appointments.
+                Include(a => a.Patient)
+                .Include(a => a.Doctor)
+                .Include(a => a.TimeSlot).ToListAsync();
+            return View(appointment);
         }
 
         // GET: Patients/Create
@@ -97,8 +100,11 @@ namespace HospitalManagementSystem.Controllers
                 return NotFound();
             }
 
-            var patient = await _context.Patients
-                .FirstOrDefaultAsync(m => m.PatientId == id);
+            var patient = await _context.Appointments
+                .Include(a => a.Doctor)
+                .Include(a => a.Patient)
+                .Include(a => a.TimeSlot)
+                .FirstOrDefaultAsync(m => m.AppointmentId == id);
             if (patient == null)
             {
                 return NotFound();

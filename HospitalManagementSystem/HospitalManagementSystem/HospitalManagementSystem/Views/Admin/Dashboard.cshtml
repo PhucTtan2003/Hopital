@@ -1,0 +1,62 @@
+﻿@model HospitalManagementSystem.Data.Patient
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Dashboard</h1>
+
+<!-- Form chọn khoảng thời gian -->
+<form method="get" asp-action="Dashboard" class="form-inline">
+    <div class="form-group">
+        <label for="startDate">Từ ngày: </label>
+        <input type="date" id="startDate" name="startDate" class="form-control mx-sm-2" required />
+    </div>
+    <div class="form-group">
+        <label for="endDate">Đến ngày: </label>
+        <input type="date" id="endDate" name="endDate" class="form-control mx-sm-2" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Lọc</button>
+</form>
+
+<!-- Biểu đồ sẽ được hiển thị ở đây -->
+<div class="chart-container" style="width: 80%; margin: auto;">
+    <canvas id="patientChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    var ctx = document.getElementById('patientChart').getContext('2d');
+
+    var chart = new Chart(ctx, {
+        type: 'bar', // Sử dụng biểu đồ dạng cột (bar chart)
+        data: {
+            labels: @Html.Raw(Json.Serialize(ViewBag.PatientDates)), // Danh sách các ngày
+            datasets: [{
+                label: 'Số lượng hồ sơ đã tạo',
+                data: @Html.Raw(Json.Serialize(ViewBag.PatientCounts)), // Số lượng hồ sơ cho từng ngày
+                backgroundColor: 'rgba(54, 162, 235, 0.5)', // Màu sắc của cột
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Số lượng hồ sơ bệnh nhân đã tạo theo ngày'
+                }
+            }
+        }
+    });
+</script>

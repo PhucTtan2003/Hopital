@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace HospitalManagementSystem.Data;
 
@@ -18,18 +17,13 @@ public partial class Patient
 
     public string? Gender { get; set; }
 
-    [Required(ErrorMessage = "Address is required.")]
-    [StringLength(255, ErrorMessage = "Address cannot be longer than 255 characters.")]
     public string? AddressPatients { get; set; }
 
-    [Required(ErrorMessage = "Phone number is required.")]
-    [Phone(ErrorMessage = "The Phone field is not a valid phone number.")]
     public string Phone { get; set; } = null!;
 
-    [Required(ErrorMessage = "Email is required.")]
-    [EmailAddress(ErrorMessage = "Invalid Email Address.")]
-    [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Email must contain '@' and a valid domain.")]
     public string? Email { get; set; }
+
+    public DateTime? CreatedAt { get; set; }
 
     public virtual Account? Account { get; set; }
 
