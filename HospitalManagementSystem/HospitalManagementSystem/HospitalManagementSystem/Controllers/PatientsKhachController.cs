@@ -25,16 +25,36 @@ namespace HospitalManagementSystem.Controllers
         // POST: Patient/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Patient patient)
+        public async Task<IActionResult> Create([Bind("FirstName,LastName,DateOfBirth,Gender,AddressPatients,Phone,Email")] Patient patient)
         {
+            // Lấy AccountId từ session
+            var accountId = HttpContext.Session.GetString("AccountId");
+
+            if (accountId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             if (ModelState.IsValid)
             {
-                _context.Patients.Add(patient);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
+                // Gán AccountId từ session vào patient
+                patient.AccountId = int.Parse(accountId);
+
+                // Set thêm CreatedAt với thời gian hiện tại
+                patient.CreatedAt = DateTime.Now;
+
+                // Lưu bệnh nhân vào cơ sở dữ liệu
+                _context.Add(patient);
+                await _context.SaveChangesAsync();
+
+                // Chuyển hướng về trang Index sau khi tạo thành công
+                return RedirectToAction(nameof(Index));
             }
+
+            // Trả về view nếu có lỗi validation
             return View(patient);
         }
+
 
         // GET: Patient/Index
         public ActionResult Index()
