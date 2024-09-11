@@ -1,81 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\",
+  "WorkspaceRootPath": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\specialty\\selectspecialty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\specialty\\selectspecialty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\specialty\\selectspecialty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\patients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\documents\\zalo received files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|c:\\users\\thinh nguyen\\onedrive\\desktop\\m\u00F4 h\u00ECnh aglie\\hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93E41F28-4D47-413D-9316-FBAD437B142C}|webbv\\webbv.csproj|solutionrelative:webbv\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -92,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "webbv\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAADoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAFsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-03T13:01:15.516Z",
               "EditorCaption": ""
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\login.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\login.cs",
               "RelativeDocumentMoniker": "webbv\\Controllers\\login.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\login.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\login.cs",
               "RelativeToolTip": "webbv\\Controllers\\login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "webbv\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -129,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "webbv\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\wwwroot\\css\\site.css",
               "RelativeToolTip": "webbv\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -141,9 +141,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "SelectSpecialty.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
               "RelativeToolTip": "webbv\\Views\\Specialty\\SelectSpecialty.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -153,9 +153,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Shared\\footer.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\footer.cshtml",
               "RelativeToolTip": "webbv\\Views\\Shared\\footer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -165,9 +165,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Program.cs",
               "RelativeDocumentMoniker": "webbv\\Program.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Program.cs",
               "RelativeToolTip": "webbv\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,9 +177,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "SpecialtyController.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\SpecialtyController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\SpecialtyController.cs",
               "RelativeDocumentMoniker": "webbv\\Controllers\\SpecialtyController.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\SpecialtyController.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\SpecialtyController.cs",
               "RelativeToolTip": "webbv\\Controllers\\SpecialtyController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwBQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,9 +189,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\login\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\login\\Index.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\login\\Index.cshtml",
               "RelativeToolTip": "webbv\\Views\\login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -201,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Create.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Patients\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Create.cshtml",
               "RelativeToolTip": "webbv\\Views\\Patients\\Create.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -213,9 +213,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Index.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Patients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Patients\\Index.cshtml",
               "RelativeToolTip": "webbv\\Views\\Patients\\Index.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEcAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -225,9 +225,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "PatientsController.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "webbv\\Controllers\\PatientsController.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "webbv\\Controllers\\PatientsController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,9 +237,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "webbv\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Controllers\\HomeController.cs",
               "RelativeToolTip": "webbv\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,9 +249,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "HospitalDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
               "RelativeDocumentMoniker": "webbv\\Data\\HospitalDbContext.cs",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Data\\HospitalDbContext.cs",
               "RelativeToolTip": "webbv\\Data\\HospitalDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -261,9 +261,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json",
               "RelativeDocumentMoniker": "webbv\\appsettings.json",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\appsettings.json",
               "RelativeToolTip": "webbv\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -273,9 +273,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "webbv\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -285,9 +285,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "webbv\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -297,9 +297,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "webbv\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -309,13 +309,17 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "webbv\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\M\u00F4 h\u00ECnh Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "webbv\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-05T15:37:26.804Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

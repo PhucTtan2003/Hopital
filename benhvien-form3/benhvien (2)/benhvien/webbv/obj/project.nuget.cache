@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mmnXhWUqFJM=",
+  "dgSpecHash": "GcJFmKwBa5Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
+  "projectFilePath": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\Mô hình Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thinh Nguyen\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Thinh Nguyen\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

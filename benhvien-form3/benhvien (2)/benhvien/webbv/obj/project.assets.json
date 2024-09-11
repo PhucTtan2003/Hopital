@@ -7852,11 +7852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
+      "projectUniqueName": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\Mô hình Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
       "projectName": "webbv",
-      "projectPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
+      "projectPath": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\Mô hình Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\webbv.csproj",
       "packagesPath": "C:\\Users\\Thinh Nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thinh Nguyen\\Documents\\Zalo Received Files\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\obj\\",
+      "outputPath": "C:\\Users\\Thinh Nguyen\\OneDrive\\Desktop\\Mô hình Aglie\\Hopital\\benhvien-form3\\benhvien (2)\\benhvien\\webbv\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thinh Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7929,7 +7929,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
