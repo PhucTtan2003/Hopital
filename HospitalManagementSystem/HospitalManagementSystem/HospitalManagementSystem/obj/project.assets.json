@@ -7853,19 +7853,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NGOC THIEN\\.nuget\\packages\\": {}
+    "C:\\Users\\hophu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "projectUniqueName": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
       "projectName": "HospitalManagementSystem",
-      "projectPath": "D:\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\NGOC THIEN\\.nuget\\packages\\",
-      "outputPath": "D:\\Hopital\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\",
+      "projectPath": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\hophu\\.nuget\\packages\\",
+      "outputPath": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NGOC THIEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hophu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7935,7 +7935,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

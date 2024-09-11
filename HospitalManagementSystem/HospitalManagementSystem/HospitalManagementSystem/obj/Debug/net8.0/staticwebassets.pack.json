@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\BMlogo.jpg",
+      "PackagePath": "staticwebassets\\images\\BMlogo.jpg"
+    },
+    {
       "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\BV.png",
       "PackagePath": "staticwebassets\\images\\BV.png"
     },
@@ -307,6 +311,10 @@
     {
       "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\ssh.jpg",
       "PackagePath": "staticwebassets\\images\\ssh.jpg"
+    },
+    {
+      "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\ssh1.jpg",
+      "PackagePath": "staticwebassets\\images\\ssh1.jpg"
     },
     {
       "Id": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\user.png",

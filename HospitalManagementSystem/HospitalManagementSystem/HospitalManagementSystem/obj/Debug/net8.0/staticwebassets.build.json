@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fq8PxE9dx/aKYXeIeDjIMomGVC/ddHmtTLbIn86d2+I=",
+  "Hash": "x/6LUKsujHsoJBBfP+lI4kjhmdoj/o1Mr8c0XlwXlG4=",
   "Source": "HospitalManagementSystem",
   "BasePath": "_content/HospitalManagementSystem",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\BMlogo.jpg",
+      "SourceId": "HospitalManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementSystem",
+      "RelativePath": "images/BMlogo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\BMlogo.jpg"
     },
     {
       "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\BV.png",
@@ -1497,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ssh.jpg"
+    },
+    {
+      "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\ssh1.jpg",
+      "SourceId": "HospitalManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementSystem",
+      "RelativePath": "images/ssh1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ssh1.jpg"
     },
     {
       "Identity": "D:\\Education\\MVC\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\images\\user.png",
