@@ -1,0 +1,36 @@
+﻿@model IEnumerable<HospitalManagementSystem.Data.TimeSlot>
+
+<h2>Danh Sách Thời Gian Rảnh Của Bác Sĩ</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Bác Sĩ</th>
+            <th>Ngày</th>
+            <th>Thời Gian</th>
+            <th>Khả Dụng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var timeSlot in Model)
+        {
+            <tr>
+                <td>@timeSlot.Doctor.FullName</td>
+                <td>@timeSlot.Date.ToString("dd/MM/yyyy")</td>
+                <td>@timeSlot.Time</td>
+                <td>
+                    @if (timeSlot.IsAvailable)
+                    {
+                        <span>Có</span>
+                    }
+                    else
+                    {
+                        <span>Không</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Thêm Thời Gian Rảnh</a>

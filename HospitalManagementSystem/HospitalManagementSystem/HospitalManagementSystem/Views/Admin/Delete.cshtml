@@ -1,0 +1,20 @@
+﻿@model HospitalManagementSystem.Data.Staff
+{
+    ViewData["Title"] = "Xoá Nhân Viên";
+}
+
+<h1 class="text-danger">Xóa Nhân Viên</h1>
+
+<p>Bạn có chắc chắn muốn xóa nhân viên này không?</p>
+
+<div>
+    <h3>@Model.FirstName @Model.LastName</h3>
+    <p>Chức Danh: @Model.Position</p>
+    <p>Phòng Ban: @Model.Department.DepartmentName</p>
+    <p>Số Điện Thoại: @Model.Phone</p>
+    <p>Email: @Model.Email</p>
+</div>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.StaffId">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+</form>

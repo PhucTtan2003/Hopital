@@ -1,0 +1,38 @@
+﻿@model HospitalManagementSystem.Data.TimeSlot
+
+<h2>Thêm Thời Gian Rảnh</h2>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="DoctorId" class="control-label">Chọn Bác Sĩ</label>
+        <select asp-for="DoctorId" class="form-control" asp-items="ViewBag.Doctors"></select>
+        <span asp-validation-for="DoctorId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Date" class="control-label">Ngày</label>
+        <input asp-for="Date" class="form-control" type="date" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Time" class="control-label">Thời Gian</label>
+        <input asp-for="Time" class="form-control" type="time" />
+        <span asp-validation-for="Time" class="text-danger"></span>
+    </div>
+
+
+    <label>
+        <input asp-for="IsAvailable" type="hidden" value="true" />
+    </label>
+
+    <div class="form-group">
+        <input type="submit" value="Thêm" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>

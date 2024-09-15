@@ -8,55 +8,36 @@
 
 <!DOCTYPE html>
 <html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - BACH MAI Hospital</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+            }
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BACH MAI Hospital</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
-    <style>
-        body {
+        <!-- Custom CSS -->
+        <style >
+            body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
         }
 
-        .sidebar {
-            width: 250px;
-            background-color: #343a40;
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100%;
-            padding-top: 20px;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
 
-            .sidebar a {
-                padding: 10px 15px;
-                text-decoration: none;
-                font-size: 18px;
-                color: #ddd;
-                display: block;
-                width: 100%;
-                text-align: center;
-            }
-
-                .sidebar a:hover {
-                    background-color: #575d63;
-                    color: white;
-                }
-
+        /* Main content */
         .main-content {
             margin-left: 250px;
             padding: 20px;
@@ -64,16 +45,14 @@
             background-color: #ffffff;
         }
 
+        /* Navbar */
         .navbar {
             background-color: #343a40;
             color: white;
             padding: 10px;
         }
 
-            .navbar .navbar-brand {
-                color: white;
-            }
-
+            .navbar .navbar-brand,
             .navbar .navbar-nav .nav-link {
                 color: white;
             }
@@ -82,52 +61,105 @@
                     color: #ddd;
                 }
 
-        .content-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
+        /* Sidebar */
+        .sidebar {
+            background-color: #343a40;
+            height: 100vh;
+            padding-top: 20px;
+            position: fixed;
+            width: 250px;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
         }
 
-            .content-header h1 {
-                margin: 0;
-                font-size: 24px;
+            .sidebar .nav-link {
+                color: white;
+                font-size: 1.2rem;
+                transition: all 0.3s ease;
             }
 
-        .chart-container {
-            background-color: white;
-            padding: 20px;
+                .sidebar .nav-link:hover {
+                    background-color: #495057;
+                    transform: translateX(5px);
+                    color: #00aced;
+                }
+
+                .sidebar .nav-link i {
+                    font-size: 1.5rem;
+                    margin-right: 10px;
+                    transition: all 0.3s ease;
+                }
+
+                .sidebar .nav-link:hover i {
+                    color: #17a2b8;
+                    transform: rotate(20deg);
+                }
+
+            .sidebar .navbar-brand img {
+                transition: transform 0.3s ease;
+            }
+
+                .sidebar .navbar-brand img:hover {
+                    transform: scale(1.1);
+                }
+
+        /* Cards layout */
+        .card {
+            border: none;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            min-height: 350px; /* Đặt chiều cao tối thiểu cho thẻ */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
         }
 
-        .sidebar a {
-            padding: 10px 15px;
-            text-decoration: none;
-            font-size: 18px;
-            color: #ddd;
-            display: flex;
-            align-items: center;
-            width: 100%;
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
             text-align: left;
         }
 
-            .sidebar a i {
-                margin-right: 10px;
-                font-size: 20px;
+        .card-text {
+            color: #6c757d;
+            text-align: left;
+            flex-grow: 1; /* Đẩy mô tả lên trên để nút nằm dưới cùng */
+        }
+
+        .card .btn {
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+            margin-top: auto; /* Đẩy nút xuống dưới cùng */
+        }
+
+            .card .btn span {
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                font-weight: bold;
             }
 
+
+
+
+        
+        /* Footer */
         .footer {
-            position: relative;
             width: 100%;
             background-color: #f8f9fa;
             text-align: center;
             padding: 10px 0;
-            clear: both;
             font-size: 14px;
             color: #6c757d;
-            bottom: 0;
         }
 
             .footer a {
@@ -138,65 +170,131 @@
                 .footer a:hover {
                     text-decoration: underline;
                 }
-    </style>
-</head>
+        
+        
+        </style>
 
-<body>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            Swal.fire({
-                title: 'Chào Quản trị viên!',
-                text: 'Chúc bạn một ngày tốt lành!',
-                icon: 'info',
-                confirmButtonText: 'Đóng'
+    </head>
+
+    <body>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                Swal.fire({
+                    title: 'Chào Quản trị viên!',
+                    text: 'Chúc bạn một ngày tốt lành!',
+                    icon: 'info',
+                    confirmButtonText: 'Đóng'
+                });
             });
-        });
-    </script>
+        </script>
 
-    <div class="sidebar">
-        <div class="navbar-brand text-center">
-            <img src="~/images/Avengers HOSPITAL.png" alt="Logo" class="img-fluid" style="width: 100px;">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="d-flex justify-content-center mb-4">
+                <img src="~/images/BV.png" alt="Logo" class="img-fluid" style="width: 100px;">
+            </div>
+            <a class="nav-link d-flex align-items-center text-light py-2" asp-controller="Admin" asp-action="DashBoard">
+                <i class="bi bi-bar-chart mr-2"></i> Biểu đồ tạo hồ sơ
+            </a>
+        <a class="nav-link d-flex align-items-center text-light py-2" asp-controller="Patients" asp-action="Index">
+                <i class="bi bi-person-check mr-2"></i> Quản lý hồ sơ đã đặt khám
+            </a>
+            <a class="nav-link d-flex align-items-center text-light py-2" asp-controller="Admin" asp-action="StaffList">
+                <i class="bi bi-people mr-2"></i> Quản lý hồ sơ Nhân Viên
+            </a>
+            <a class="nav-link d-flex align-items-center text-light py-2" asp-controller="Admin" asp-action="Total">
+                <i class="bi bi-clipboard-data mr-2"></i> Tổng số hồ sơ
+            </a>
         </div>
-        <a class="nav-link bi bi-person-badge" asp-controller="Admin" asp-action="DashBoard">Biểu đồ tạo hồ sơ</a>
-        <a class="nav-link bi bi-person-badge" asp-controller="Patients" asp-action="Index">Quản lý hồ sơ đã đặt khám</a>
-        <a class="nav-link bi bi-person-badge" asp-controller="Physicians" asp-action="Index"> Quản lý hồ sơ Bác Sĩ</a>
-        <a href="#"><i class="bi bi-envelope"></i> Form liên hệ</a>
-        <a href="#"><i class="bi bi-bar-chart"></i> Báo cáo thống kê</a>
-    </div>
 
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Quản trị</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="~/images/avatar.jpg" alt="User Avatar" class="rounded-circle" style="width: 30px;">
-                                <span>@username</span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="https://localhost:7114/Admin/Profile">Tài khoản</a>
-                                <div class="dropdown-divider"></div>
-                                <a asp-action="Logout" asp-controller="Admin">Đăng Xuất</a>
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Quản Trị Viên</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="~/images/user.png" alt="User Avatar" class="rounded-circle" style="width: 30px;">
+                                    <span>@username</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                                    <a class="dropdown-item" href="https://localhost:7114/Admin/Profile">Tài khoản</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a asp-action="Logout" asp-controller="Admin">Đăng Xuất</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Dashboard content -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Card 1: Danh Sách Bác Sĩ -->
+                    <div class="col-md-3">
+                        <div class="card text-center shadow-lg mb-4">
+                            <div class="card-body card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Danh Sách Bác Sĩ </h5>
+                                <p class="card-text">Quản lý các Bác Sĩ đang làm việc</p>
+                            <a href="https://localhost:7114/Admin/StaffList" class="btn btn-secondary">Xem <span>(28963)</span></a> <!-- Căn giữa số -->
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 2: Lịch Đặt Khám -->
+                    <div class="col-md-3">
+                        <div class="card text-center shadow-lg mb-4">
+                        <div class="card-body card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Danh Sách Bệnh Nhân</h5>
+                                <p class="card-text">Quản lý các Bệnh nhân đang khám bệnh</p>
+                                <a href="#" class="btn btn-secondary">Xem <span>(28963)</span></a> <!-- Căn giữa số -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 3: Danh Sách Bệnh Nhân -->
+                    <div class="col-md-3">
+                        <div class="card text-center shadow-lg mb-4">
+                        <div class="card-body card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Danh Sách Hồ Sơ</h5>
+                                <p class="card-text">Quản lý các đã đặt khám của Bệnh nhân</p>
+                                <a href="#" class="btn btn-secondary">Xem <span>(800)</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 4: Danh Sách Hoá Đơn -->
+                    <div class="col-md-3">
+                        <div class="card text-center shadow-lg mb-4">
+                        <div class="card-body card-body d-flex flex-column justify-content-between">
+                                <h5 class="card-title">Danh Sách Đơn Thuốc</h5>
+                                <p class="card-text">Quản lý các Đơn Thuốc</p>
+                                <a href="#" class="btn btn-secondary">Xem <span>(1000)</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
 
-        <div class="content-header">
-            <h1>Index</h1>
+            <!-- Footer -->
+            <footer class="footer bg-light mt-auto py-3">
+                <div class="container text-center">
+                    <p class="mb-0">Bản quyền © 2024 BACH MAI Hospital. <a href="#">Chính sách bảo mật</a></p>
+                </div>
+            </footer>
         </div>
-
-
-    </div>
-</body>
+    </body>
 </html>
